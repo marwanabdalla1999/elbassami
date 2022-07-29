@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.Fragment.otherservice">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/btnBack"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/ic_action_back_green"
+                android:padding="10dp">
+
+            </ImageView>
+
+            <RelativeLayout
+                android:id="@+id/barMainLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_toEndOf="@+id/btnBack"
+                android:layout_toRightOf="@+id/btnBack">
+
+                <ImageView
+                    android:id="@+id/ivIcon"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/icon_other_services" />
+
+                <TextView
+                    android:id="@+id/tvHeader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_toEndOf="@+id/ivIcon"
+                    android:layout_toRightOf="@+id/ivIcon"
+                    android:text="@string/other_service"
+                    android:textColor="@color/black"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="1.5dp"
+                android:layout_below="@+id/barMainLayout"
+                android:background="@color/colorAccent"></RelativeLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/checkBox2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/delivery_home" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="@string/date"
+                        android:gravity="center"/>
+                    <TextView
+                        android:id="@+id/textView13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/time"
+
+                        android:gravity="center"/>
+
+
+
+                    <TextView
+                        android:id="@+id/textView14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/towing_type"
+                        android:gravity="center"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/boxes"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <AutoCompleteTextView
+                        android:id="@+id/datebox"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="5dp"
+                        android:background="@drawable/white_with_corner"
+                        android:drawableEnd="@drawable/ic_action_down_arrow"
+                        android:drawableRight="@drawable/ic_action_down_arrow"
+                        android:drawablePadding="10dp"
+                        android:focusable="false"
+                        android:layout_gravity="center"
+                        android:focusableInTouchMode="false"
+                        android:gravity="center|center_vertical"
+                        android:hint="@string/date"
+                        android:inputType="number"
+                        android:layoutDirection="locale"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                        android:textColor="@color/black"
+                        android:textSize="11sp">
+
+                    </AutoCompleteTextView>
+
+                    <AutoCompleteTextView
+                        android:id="@+id/timebox"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_toEndOf="@+id/datebox"
+                        android:layout_weight="1"
+                        android:background="@drawable/white_with_corner"
+                        android:drawableEnd="@drawable/ic_action_down_arrow"
+                        android:drawableRight="@drawable/ic_action_down_arrow"
+                        android:drawablePadding="10dp"
+                        android:focusable="false"
+                        android:layout_gravity="center"
+
+                        android:layout_marginEnd="5dp"
+                        android:focusableInTouchMode="false"
+                        android:gravity="center|center_vertical"
+                        android:hint="@string/time"
+                        android:inputType="number"
+                        android:layoutDirection="locale"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                        android:textColor="@color/black"
+                        android:textSize="11sp">
+
+                    </AutoCompleteTextView>
+
+                    <AutoCompleteTextView
+                        android:id="@+id/year4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_toEndOf="@id/timebox"
+                        android:layout_weight="1"
+                        android:background="@drawable/white_with_corner"
+                        android:drawableEnd="@drawable/ic_action_down_arrow"
+                        android:drawablePadding="10dp"
+                        android:focusable="false"
+                        android:layout_gravity="center"
+                        android:focusableInTouchMode="false"
+                        android:gravity="center|center_vertical"
+                        android:hint="@string/towing_type"
+                        android:inputType="number"
+                        android:layoutDirection="locale"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                        android:textColor="@color/black"
+                        android:textSize="11sp">
+
+                    </AutoCompleteTextView>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="0.1"
+                    android:drawableEnd="@drawable/ic_place_black_24dp"
+                    android:text="@string/txt_pickup_loc"
+                    android:textSize="11sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:text="price"
+                    android:textColor="#000000"
+                    android:textSize="22dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/white_with_corner"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="150.00 SRB"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="1.5dp"
+            android:layout_below="@+id/barMainLayout"
+            android:layout_marginTop="5dp"
+            android:background="#000000"></RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/homepickup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/homepickup" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/date1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/date" />
+
+                    <TextView
+                        android:id="@+id/time1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+
+                        android:text="@string/time" />
+
+
+                    <TextView
+                        android:id="@+id/towingtype1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/towing_type" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/boxes1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <AutoCompleteTextView
+                        android:id="@+id/datebox1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_gravity="center"
+                        android:layout_marginEnd="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/white_with_corner"
+                        android:drawableEnd="@drawable/ic_action_down_arrow"
+                        android:drawableRight="@drawable/ic_action_down_arrow"
+                        android:drawablePadding="10dp"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"
+                        android:gravity="center|center_vertical"
+                        android:hint="@string/date"
+                        android:inputType="number"
+                        android:layoutDirection="locale"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                        android:textColor="@color/black"
+                        android:textSize="11sp">
+
+                    </AutoCompleteTextView>
+
+                    <AutoCompleteTextView
+                        android:id="@+id/timebox1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:layout_marginEnd="5dp"
+                        android:layout_toEndOf="@+id/datebox"
+                        android:layout_weight="1"
+                        android:background="@drawable/white_with_corner"
+                        android:drawableEnd="@drawable/ic_action_down_arrow"
+                        android:drawableRight="@drawable/ic_action_down_arrow"
+                        android:drawablePadding="10dp"
+
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"
+                        android:gravity="center|center_vertical"
+                        android:hint="@string/time"
+                        android:inputType="number"
+                        android:layoutDirection="locale"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                        android:textColor="@color/black"
+                        android:textSize="11sp">
+
+                    </AutoCompleteTextView>
+
+                    <AutoCompleteTextView
+                        android:id="@+id/towingtypebox"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:layout_toEndOf="@id/timebox"
+                        android:layout_weight="1"
+                        android:background="@drawable/white_with_corner"
+                        android:drawableEnd="@drawable/ic_action_down_arrow"
+                        android:drawablePadding="10dp"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"
+                        android:gravity="center|center_vertical"
+                        android:hint="@string/towing_type"
+                        android:inputType="number"
+                        android:layoutDirection="locale"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                        android:textColor="@color/black"
+                        android:textSize="11sp">
+
+                    </AutoCompleteTextView>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/picklocation1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="0.1"
+                    android:drawableEnd="@drawable/ic_place_black_24dp"
+                    android:text="@string/txt_pickup_loc"
+                    android:textSize="11sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView222"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:text="price"
+                    android:textColor="#000000"
+                    android:textSize="22dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/price1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/white_with_corner"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="150.00 SRB"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="1.5dp"
+            android:layout_below="@+id/barMainLayout"
+            android:layout_marginTop="5dp"
+            android:background="#000000"></RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <CheckBox
+                android:id="@+id/checkBox4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_weight="1"
+                android:layout_marginEnd="5dp"
+                android:text="@string/Small" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/smallspc"
+                />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Qty"
+                android:layout_weight="0.8"
+
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/spinner1"
+                android:layout_width="80dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/btn_dropdown"
+                android:spinnerMode="dropdown"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/checkBox5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_weight="0.1"
+                android:textSize="15sp"
+                android:layout_marginEnd="5dp"
+                android:text="@string/medium"></CheckBox>
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/mediumspc" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Qty"
+                android:layout_weight="0.8"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/spinner2"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:drawable/btn_dropdown"
+                android:spinnerMode="dropdown"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/checkBox6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Large"
+                android:textSize="15sp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:layout_marginEnd="5dp"/>
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/largespc"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Qty"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_weight="0.8"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/spinner3"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:drawable/btn_dropdown"
+                android:spinnerMode="dropdown"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="end"
+            android:layout_marginEnd="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:text="price"
+                android:textColor="#000000"
+                android:textSize="22dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/totalprice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/white_with_corner"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="150.00 SRB"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rouded_green"
+            android:text="@string/next"
+            android:textColor="#FFFFFF" />
+
+
+    </LinearLayout>
+
+</ScrollView>

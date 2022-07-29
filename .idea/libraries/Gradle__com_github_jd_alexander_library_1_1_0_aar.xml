@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.jd-alexander:library:1.1.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d90442cdf76eea06e7d1ccd3d199b1b6/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c03ee5d76d8223053c42059046812f45/jetified-library-1.1.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c03ee5d76d8223053c42059046812f45/jetified-library-1.1.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c03ee5d76d8223053c42059046812f45/jetified-library-1.1.0/jars/classes.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../src/flutter/caches/transforms-2/files-2.1/c03ee5d76d8223053c42059046812f45/jetified-library-1.1.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../src/flutter/caches/transforms-2/files-2.1/c03ee5d76d8223053c42059046812f45/jetified-library-1.1.0/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../../../src/flutter/caches/transforms-2/files-2.1/c03ee5d76d8223053c42059046812f45/jetified-library-1.1.0/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

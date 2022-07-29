@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:scrollbarFadeDuration="250">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/splash_screen" />
+
+        <!--        <com.albassami.logistics.NewUtilsAndPref.CustomText.CustomBoldRegularTextView-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_gravity="center_horizontal"-->
+        <!--            android:layout_marginTop="20dp"-->
+        <!--            android:text="@string/welcome_back"-->
+        <!--            android:textColor="@color/black"-->
+        <!--            android:textSize="22sp" />-->
+
+        <!--        <com.albassami.logistics.NewUtilsAndPref.CustomText.CustomRegularTextView-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_gravity="center_horizontal"-->
+        <!--            android:layout_marginTop="5dp"-->
+        <!--            android:text="@string/login_if_you_are_an_existing_user_of_nikola"-->
+        <!--            android:textSize="12sp" />-->
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginEnd="20dp"
+            android:layoutDirection="ltr"
+            android:orientation="horizontal">
+
+            <AutoCompleteTextView
+                android:id="@+id/countrycode"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/drawable_edittext_background"
+                android:drawableEnd="@drawable/ic_action_down_arrow"
+                android:drawablePadding="10dp"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:gravity="center|center_vertical"
+                android:hint="02- EG"
+                android:inputType="number"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:textColor="@color/black"
+                android:textSize="9sp"
+                android:visibility="visible">
+
+            </AutoCompleteTextView>
+
+            <com.albassami.logistics.NewUtilsAndPref.CustomText.CustomRegularEditView
+                android:id="@+id/user_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:background="@drawable/drawable_edittext_background"
+                android:drawableRight="@drawable/phone"
+
+                android:drawablePadding="20dp"
+                android:hint="@string/EnterYourphonenumber"
+                android:inputType="number"
+                android:paddingStart="10dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="15dp"
+                android:paddingEnd="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="15dp"
+                android:singleLine="true"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textColorHint="@color/circle_color"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/inputLayoutPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:hintAnimationEnabled="false"
+            app:passwordToggleEnabled="true"
+            app:passwordToggleTint="@color/bt_light_gray">
+
+            <com.albassami.logistics.NewUtilsAndPref.CustomText.CustomRegularEditView
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:background="@drawable/drawable_edittext_background"
+                android:drawableStart="@drawable/ic_lock_open_black_24dp"
+
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                android:paddingStart="10dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="15dp"
+                android:paddingEnd="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="15dp"
+                android:singleLine="true"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.albassami.logistics.NewUtilsAndPref.CustomText.CustomRegularTextView
+            android:id="@+id/forgotPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:text="@string/forgot_password"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/btn_bag"
+            android:paddingStart="50dp"
+            android:paddingLeft="50dp"
+            android:paddingEnd="50dp"
+            android:paddingRight="50dp"
+            android:text="@string/login"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/signUplayout"
+            android:layout_width="wrap_content"
+            android:layout_height="59dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <com.albassami.logistics.NewUtilsAndPref.CustomText.CustomRegularTextView
+                android:id="@+id/signUp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="1dp"
+                android:text="@string/do_not_have_an_account_signup"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <com.albassami.logistics.NewUtilsAndPref.CustomText.CustomRegularTextView
+                    android:id="@+id/signUp2"
+                    android:layout_width="102dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="0.05"
+                    android:text="@string/Signup"
+                    android:textColor="#39963D"
+                    android:textSize="22sp" />
+
+                <RelativeLayout
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:background="#39963D"
+                    android:visibility="invisible">
+
+                </RelativeLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,37 @@
+<component name="libraryTable">
+  <library name="Gradle: com.futuremind.recyclerfastscroll:fastscroll:0.2.5@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/f110622bf4a3590f7949432b716d91ea/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/f110622bf4a3590f7949432b716d91ea/res" />
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/db1ffcf7b5e371be45eb4e9fcbb6171d/jetified-fastscroll-0.2.5/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/db1ffcf7b5e371be45eb4e9fcbb6171d/jetified-fastscroll-0.2.5/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/db1ffcf7b5e371be45eb4e9fcbb6171d/jetified-fastscroll-0.2.5/res" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/c87dd2a843bf242d2d0f5f54c5ac7765/jetified-fastscroll-0.2.5/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/c87dd2a843bf242d2d0f5f54c5ac7765/jetified-fastscroll-0.2.5/res" />
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/c87dd2a843bf242d2d0f5f54c5ac7765/jetified-fastscroll-0.2.5/jars/classes.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/db1ffcf7b5e371be45eb4e9fcbb6171d/jetified-fastscroll-0.2.5/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/db1ffcf7b5e371be45eb4e9fcbb6171d/jetified-fastscroll-0.2.5/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/db1ffcf7b5e371be45eb4e9fcbb6171d/jetified-fastscroll-0.2.5/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/db1ffcf7b5e371be45eb4e9fcbb6171d/jetified-fastscroll-0.2.5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/db1ffcf7b5e371be45eb4e9fcbb6171d/jetified-fastscroll-0.2.5/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/db1ffcf7b5e371be45eb4e9fcbb6171d/jetified-fastscroll-0.2.5/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/999863f82b7d5b84ef5dd0a39343a550/jetified-fastscroll-0.2.5/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/999863f82b7d5b84ef5dd0a39343a550/jetified-fastscroll-0.2.5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/999863f82b7d5b84ef5dd0a39343a550/jetified-fastscroll-0.2.5/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/00fff42de3d26174cb51b04ad7853bbb/jetified-fastscroll-0.2.5/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/00fff42de3d26174cb51b04ad7853bbb/jetified-fastscroll-0.2.5/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/00fff42de3d26174cb51b04ad7853bbb/jetified-fastscroll-0.2.5/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../src/flutter/caches/transforms-2/files-2.1/209e6e71fb36a1a0f75da63ca0f3785c/jetified-fastscroll-0.2.5/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../../../src/flutter/caches/transforms-2/files-2.1/209e6e71fb36a1a0f75da63ca0f3785c/jetified-fastscroll-0.2.5/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../src/flutter/caches/transforms-2/files-2.1/209e6e71fb36a1a0f75da63ca0f3785c/jetified-fastscroll-0.2.5/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.futuremind.recyclerfastscroll/fastscroll/0.2.5/ca40587ab2109935924c3537fcc7f7cafa3348ee/fastscroll-0.2.5-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../src/flutter/caches/modules-2/files-2.1/com.futuremind.recyclerfastscroll/fastscroll/0.2.5/ca40587ab2109935924c3537fcc7f7cafa3348ee/fastscroll-0.2.5-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.futuremind.recyclerfastscroll/fastscroll/0.2.5/b5e0762cb0d3f5a342f3dd3e2f31d6963d40b491/fastscroll-0.2.5-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../src/flutter/caches/modules-2/files-2.1/com.futuremind.recyclerfastscroll/fastscroll/0.2.5/b5e0762cb0d3f5a342f3dd3e2f31d6963d40b491/fastscroll-0.2.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

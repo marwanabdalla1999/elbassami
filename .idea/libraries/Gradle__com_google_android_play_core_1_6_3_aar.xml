@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.play:core:1.6.3@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8628b1f76ae8f45d171066e94091ea64/jetified-core-1.6.3/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8628b1f76ae8f45d171066e94091ea64/jetified-core-1.6.3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8628b1f76ae8f45d171066e94091ea64/jetified-core-1.6.3/res" />
+      <root url="jar://$PROJECT_DIR$/../../../../src/flutter/caches/transforms-2/files-2.1/8628b1f76ae8f45d171066e94091ea64/jetified-core-1.6.3/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../src/flutter/caches/transforms-2/files-2.1/8628b1f76ae8f45d171066e94091ea64/jetified-core-1.6.3/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../../../src/flutter/caches/transforms-2/files-2.1/8628b1f76ae8f45d171066e94091ea64/jetified-core-1.6.3/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

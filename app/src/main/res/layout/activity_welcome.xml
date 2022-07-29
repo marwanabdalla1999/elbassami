@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_screen_bg"
+    android:orientation="vertical">
+
+    <Spinner
+        android:id="@+id/sp_country_reg"
+        android:layout_width="230dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:popupBackground="#000000"
+        android:background="@android:color/transparent" />
+    <!--    <ImageView-->
+    <!--        android:id="@+id/iv_logo"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_centerInParent="true"-->
+    <!--        android:gravity="center"-->
+    <!--        android:textColor="@color/white" />-->
+
+    <RelativeLayout
+        android:id="@+id/text_driver_lay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+
+        >
+        <TextView
+            android:id="@+id/text_driver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:text="@string/txt_logistics"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/btn_laguage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="150dp"
+        android:layout_below="@+id/text_driver_lay"
+        >
+
+        <com.albassami.logistics.NewUtilsAndPref.CustomText.CustomRegularTextView
+            android:id="@+id/welcome_btn"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/lang_bag"
+            android:gravity="center"
+            android:padding="8dp"
+            android:shadowDy="0"
+            android:foregroundGravity="center"
+            android:text="English"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+        <com.albassami.logistics.NewUtilsAndPref.CustomText.CustomRegularTextView
+            android:id="@+id/welcome_btn2"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/lang_bag"
+            android:gravity="center"
+            android:padding="8dp"
+            android:shadowDy="0"
+            android:foregroundGravity="center"
+            android:text="Arabic"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

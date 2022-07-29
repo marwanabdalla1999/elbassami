@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <androidx.appcompat.widget.Toolbar
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/toolbar_hourly"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="@drawable/background_with_shadow">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.albassami.logistics.NewUtilsAndPref.CustomText.CustomBoldRegularTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:gravity="end"
+                android:paddingRight="10dp"
+                android:text="@string/title_rentale"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:paddingEnd="10dp" />
+
+            <ImageButton
+                android:id="@+id/hourly_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:background="@null"
+                android:padding="5dp"
+                app:srcCompat="@drawable/back" />
+
+        </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar_hourly">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/lay_search"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical">
+
+                    <com.albassami.logistics.NewUtilsAndPref.CustomText.CustomRegularTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/deep_grey"
+                        android:textSize="18sp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="Book hour based packages"/>
+
+                    <com.albassami.logistics.NewUtilsAndPref.CustomText.CustomRegularTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:textSize="18sp"
+                        android:textColor="@color/deep_grey"
+                        android:layout_marginLeft="5dp"
+                        android:text="@string/txt_pickup_loc"
+                        android:layout_marginStart="5dp" />
+
+                    <AutoCompleteTextView
+                        android:id="@+id/et_hourly_source_address"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/drawable_edittext_background"
+                        android:hint="@string/txt_current_loc"
+                        android:imeOptions="actionSearch"
+                        android:drawableRight="@drawable/close"
+                        android:inputType="text"
+                        android:maxLines="1"
+                        android:padding="10dp"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"
+                        android:drawableEnd="@drawable/close" />
+
+                    <AutoCompleteTextView
+                        android:id="@+id/et_hourly_destination_address"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/destination_edit_back"
+                        android:hint="@string/txt_dest_hint"
+                        android:imeOptions="actionSearch"
+                        android:inputType="text"
+                        android:maxLines="1"
+                        android:padding="10dp"
+                        android:textSize="14sp"
+                        android:visibility="gone"
+                        android:layout_marginEnd="10dp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/selectionDetails"
+                android:layout_below="@+id/lay_search"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+
+                <com.albassami.logistics.NewUtilsAndPref.CustomText.CustomRegularTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="@color/deep_grey"
+                    android:text="@string/enter_no_of_hours"
+                    android:layout_marginStart="5dp" />
+
+                <EditText
+                    android:id="@+id/et_no_hours"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/drawable_edittext_background"
+                    android:hint="0"
+                    android:inputType="number"
+                    android:layout_marginTop="5dp"
+                    android:maxLength="5"
+                    android:maxLines="1"
+                    android:paddingLeft="15dp"
+                    android:textSize="14sp"
+                    android:paddingStart="15dp" />
+
+
+                <com.albassami.logistics.NewUtilsAndPref.CustomText.CustomRegularTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="@color/deep_grey"
+                    android:text="@string/set_vehicle"
+                    android:layout_marginStart="5dp" />
+
+                <Spinner
+                    android:id="@+id/sp_type"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/drawable_edittext_background"/>
+
+                <com.albassami.logistics.NewUtilsAndPref.CustomText.CustomRegularTextView
+                    android:id="@+id/customBoldRegularTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/fare_detials"
+                    android:textColor="@color/deep_grey"
+                    android:textSize="18sp"
+                    android:layout_marginStart="5dp" />
+
+                <LinearLayout
+                    android:id="@+id/hourly_fare"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:orientation="vertical"
+                    android:visibility="visible"
+                    android:layout_marginStart="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <com.albassami.logistics.NewUtilsAndPref.CustomText.CustomRegularTextView
+                            android:id="@+id/textView1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/price_package"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <com.albassami.logistics.NewUtilsAndPref.CustomText.CustomRegularTextView
+                            android:id="@+id/trip_fair"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="--"
+                            android:textAlignment="textEnd"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
+
+                        <com.albassami.logistics.NewUtilsAndPref.CustomText.CustomRegularTextView
+                            android:id="@+id/textView2"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/distance"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <com.albassami.logistics.NewUtilsAndPref.CustomText.CustomRegularTextView
+                            android:id="@+id/text_distance"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textAlignment="textEnd"
+                            android:text="--"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@id/selectionDetails"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/hourly_book_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/rounded_button_welcome"
+                    android:clickable="true"
+                    android:text="@string/btn_book"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
+                <com.albassami.logistics.NewUtilsAndPref.CustomText.CustomBoldRegularTextView
+                    android:id="@+id/hourly_book_btn_later"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_margin="5dp"
+                    android:textSize="18sp"
+                    android:padding="8dp"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:text="@string/btn_later"
+                    android:textColor="@color/colorPrimaryDark" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

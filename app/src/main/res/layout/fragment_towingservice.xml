@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:clickable="true">
+
+    <LinearLayout
+        android:id="@+id/bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/btnBack"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/ic_action_back_green"
+                android:padding="10dp">
+
+            </ImageView>
+
+            <RelativeLayout
+                android:id="@+id/barMainLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_toEndOf="@+id/btnBack"
+                android:layout_toRightOf="@+id/btnBack">
+
+                <ImageView
+                    android:id="@+id/ivIcon1"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/icon_towing_services" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_toEndOf="@+id/ivIcon1"
+                    android:layout_toRightOf="@+id/ivIcon1"
+                    android:text="@string/towing_service"
+                    android:textColor="@color/black"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView32"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="45dp"
+                    android:layout_marginEnd="50dp"
+                    android:layout_toEndOf="@+id/ivIcon1"
+                    android:layout_toRightOf="@+id/ivIcon1"
+                    android:text="@string/towingservice"
+                    android:textColor="#464646"
+                    android:textSize="12dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="1.5dp"
+                android:layout_below="@+id/barMainLayout1"
+                android:background="@color/colorAccent"></RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/barMaintransloc1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginBottom="10dp"
+            android:layout_toEndOf="@+id/btnBack"
+            android:layout_toRightOf="@+id/btnBack"
+            android:background="@drawable/editbackground_trans"
+            android:visibility="invisible">
+
+            <ImageView
+                android:id="@+id/ivIcon22"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/iconinternal1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_toEndOf="@+id/ivIcon22"
+                android:layout_toRightOf="@+id/ivIcon22"
+
+                android:text="@string/local"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView502"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="50dp"
+                android:layout_toEndOf="@+id/ivIcon22"
+
+                android:layout_toRightOf="@+id/ivIcon22"
+                android:text="@string/towing_dec_city"
+                android:textColor="#7C7C7C"
+                android:textSize="12sp"
+                android:textStyle="normal" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/fromtolocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginBottom="10dp"
+            android:layout_toEndOf="@+id/btnBack"
+            android:layout_toRightOf="@+id/btnBack"
+            android:background="@drawable/editbackground_trans">
+
+            <ImageView
+                android:id="@+id/img14"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/iconintercity1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_toEndOf="@+id/img14"
+                android:layout_toRightOf="@+id/img14"
+                android:gravity="center"
+                android:text="@string/town_loc_1"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView49"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="50dp"
+                android:layout_toEndOf="@+id/img14"
+                android:layout_toRightOf="@+id/img14"
+                android:gravity="center"
+                android:text="@string/towingfromcitytoanother"
+                android:textColor="#7C7C7C"
+                android:textSize="12sp"
+                android:textStyle="normal" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/spcialtowing2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginBottom="10dp"
+            android:layout_toEndOf="@+id/btnBack"
+            android:layout_toRightOf="@+id/btnBack"
+            android:background="@drawable/editbackground_trans"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/ivIcon"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/iconcaraccident1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_toEndOf="@+id/ivIcon"
+                android:layout_toRightOf="@+id/ivIcon"
+                android:gravity="center"
+                android:text="@string/Estimatingshockedcars"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="50dp"
+                android:layout_toEndOf="@+id/ivIcon"
+                android:layout_toRightOf="@+id/ivIcon"
+                android:gravity="center"
+                android:text="@string/Estimatingshocked_desc"
+                android:textAlignment="viewStart"
+                android:textColor="#7C7C7C"
+                android:textSize="12sp"
+                android:textStyle="normal" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/barMainLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginBottom="5dp"
+            android:layout_toEndOf="@+id/btnBack"
+            android:layout_toRightOf="@+id/btnBack"
+            android:background="@drawable/editbackground_trans">
+
+            <ImageView
+                android:id="@+id/img15"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/icondoortodoor1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_toEndOf="@+id/img15"
+                android:layout_toRightOf="@+id/img15"
+                android:gravity="center"
+                android:text="@string/delivery_home"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView47"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="50dp"
+                android:layout_toEndOf="@+id/img15"
+                android:layout_toRightOf="@+id/img15"
+                android:gravity="center"
+                android:text="@string/delivery_home_desc"
+                android:textAlignment="viewStart"
+                android:textColor="#7C7C7C"
+                android:textSize="12sp"
+                android:textStyle="normal" />
+        </RelativeLayout>
+
+    </LinearLayout>
+</RelativeLayout>

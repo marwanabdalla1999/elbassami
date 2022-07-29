@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent">
+
+            <ImageView
+                android:id="@+id/btnBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/ic_action_backward"
+                android:padding="10dp">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="Car detail form"
+                android:textColor="@color/white"
+                android:textSize="14dp"
+                android:textStyle="bold">
+
+            </TextView>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp">
+
+
+
+            <AutoCompleteTextView
+                android:id="@+id/atvModel"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/et_color"
+                android:drawableRight="@drawable/ic_action_down_arrow"
+                android:drawablePadding="10dp"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:gravity="center_vertical"
+                android:hint="@string/car_brand"
+                android:paddingLeft="5dp"
+                android:paddingRight="20dp"
+                android:textColor="@color/black"
+                android:paddingStart="5dp"
+                android:drawableEnd="@drawable/ic_action_down_arrow"
+                android:paddingEnd="20dp"></AutoCompleteTextView>
+
+            <AutoCompleteTextView
+                android:id="@+id/atvCarType"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/et_color"
+                android:drawableRight="@drawable/ic_action_down_arrow"
+                android:drawablePadding="10dp"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:gravity="center_vertical"
+                android:hint="@string/car_type"
+                android:paddingLeft="5dp"
+                android:paddingRight="20dp"
+                android:textColor="@color/black"
+                android:paddingEnd="20dp"
+                android:paddingStart="5dp"
+                android:drawableEnd="@drawable/ic_action_down_arrow"></AutoCompleteTextView>
+            <AutoCompleteTextView
+                android:id="@+id/atvPlateType"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/et_color"
+                android:drawableRight="@drawable/ic_action_down_arrow"
+                android:drawablePadding="10dp"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:gravity="center_vertical"
+                android:hint="@string/other"
+                android:paddingLeft="5dp"
+                android:paddingRight="20dp"
+                android:textColor="@color/black"
+                android:paddingStart="5dp"
+                android:paddingEnd="20dp"
+                android:drawableEnd="@drawable/ic_action_down_arrow"></AutoCompleteTextView>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/layoutOthers"
+               android:layout_marginTop="5dp"
+               android:orientation="horizontal">
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_centerVertical="true"
+                   android:text="Plate Number"
+                   android:textColor="@color/dark_grey"
+                   android:background="@color/white"
+                   android:textSize="14dp"
+                   android:textStyle="bold">
+
+               </TextView>
+               <EditText
+                   android:id="@+id/etPiateNumber"
+                   android:layout_width="match_parent"
+                   android:layout_height="40dp"
+                   android:layout_marginLeft="10dp"
+                   android:background="@color/et_color"
+                   android:paddingLeft="5dp"
+                   android:textColor="@color/black"
+                   android:layout_marginStart="10dp"
+                   android:paddingStart="5dp">
+
+               </EditText>
+           </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:visibility="gone"
+                android:id="@+id/layoutSaudi"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="Plate Number"
+                    android:textColor="@color/dark_grey"
+                    android:background="@color/white"
+                    android:textSize="14dp"
+                    android:textStyle="bold">
+
+                </TextView>
+                <EditText
+                    android:id="@+id/etPlateSaudi"
+                    android:layout_width="80dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="10dp"
+                    android:maxLength="4"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:inputType="number"
+                    android:background="@drawable/bg_pinview"
+                    android:paddingLeft="5dp"
+                    android:textColor="@color/black"
+                    android:layout_marginStart="10dp"
+                    android:paddingStart="5dp">
+
+                </EditText>
+                <com.chaos.view.PinView
+                    android:id="@+id/pinView"
+                    style="@style/PinWidget.PinView"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:cursorVisible="true"
+                    android:layout_marginLeft="5dp"
+                    android:inputType="text"
+                    android:itemBackground="@drawable/bg_pinview"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    app:cursorColor="@color/colorAccent"
+                    app:cursorWidth="2dp"
+                    app:itemCount="3"
+                    app:itemHeight="35dp"
+                    app:itemRadius="2dp"
+                    app:itemSpacing="5dp"
+                    app:itemWidth="35dp"
+                    app:viewType="rectangle"
+                    android:layout_marginStart="5dp" />
+            </LinearLayout>
+            <EditText
+                android:id="@+id/etOwnerName"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/et_color"
+                android:hint="Owner's  Name"
+                android:paddingLeft="5dp"
+                android:textColor="@color/black"
+                android:paddingStart="5dp">
+
+            </EditText>
+
+            <EditText
+
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/et_color"
+                android:hint="ID Number"
+                android:paddingLeft="5dp"
+                android:textColor="@color/black"
+                android:paddingStart="5dp">
+
+            </EditText>
+
+            <EditText
+                android:id="@+id/etPhoneNumber"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/et_color"
+                android:hint="Phone Number"
+                android:paddingLeft="5dp"
+                android:textColor="@color/black"
+                android:paddingStart="5dp">
+
+            </EditText>
+
+            <Button
+                android:id="@+id/btnNext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/rouded_green"
+                android:paddingLeft="60dp"
+                android:paddingRight="60dp"
+                android:text="Next"
+                android:textColor="@color/white"
+                android:paddingStart="60dp"
+                android:paddingEnd="60dp">
+
+            </Button>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/actionbar_lay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/toolbar_history"
+            android:layout_width="match_parent"
+            android:layout_height="?android:attr/actionBarSize"
+            android:background="@drawable/background_with_shadow">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:id="@+id/history_back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:padding="10dp"
+                    android:layout_centerVertical="true"
+                    app:srcCompat="@drawable/back" />
+
+                <com.albassami.logistics.NewUtilsAndPref.CustomText.CustomBoldRegularTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="60dp"
+                    android:gravity="end"
+                    android:layout_centerVertical="true"
+                    android:paddingRight="10dp"
+                    android:id="@+id/heading"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:paddingEnd="10dp" />
+            </RelativeLayout>
+        </androidx.appcompat.widget.Toolbar>
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/histroy_progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        android:layout_height="wrap_content" />
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/ordertype"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/actionbar_lay"
+
+
+
+        android:layout_marginTop="0dp"
+        app:tabIconTintMode="add"
+        app:tabMode="fixed"/>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/orders"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/ordertype"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp" />
+
+
+</RelativeLayout>

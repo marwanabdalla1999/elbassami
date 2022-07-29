@@ -1,0 +1,23 @@
+<component name="libraryTable">
+  <library name="Gradle: com.jakewharton.timber:timber:4.7.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/43364de55b520222ae4c35c9a4cd82d8/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/43364de55b520222ae4c35c9a4cd82d8/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9607c5792dc303783f7763e6be21bf70/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/15473492e3edfd49c6302d4134e3d40c/jetified-timber-4.7.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/15473492e3edfd49c6302d4134e3d40c/jetified-timber-4.7.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/15473492e3edfd49c6302d4134e3d40c/jetified-timber-4.7.1/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../../../src/flutter/caches/transforms-2/files-2.1/15473492e3edfd49c6302d4134e3d40c/jetified-timber-4.7.1/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../../../src/flutter/caches/transforms-2/files-2.1/15473492e3edfd49c6302d4134e3d40c/jetified-timber-4.7.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../src/flutter/caches/transforms-2/files-2.1/15473492e3edfd49c6302d4134e3d40c/jetified-timber-4.7.1/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jakewharton.timber/timber/4.7.1/746f28c804e92fe2b0dd553616c78b1c3693ba16/timber-4.7.1-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../src/flutter/caches/modules-2/files-2.1/com.jakewharton.timber/timber/4.7.1/746f28c804e92fe2b0dd553616c78b1c3693ba16/timber-4.7.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jakewharton.timber/timber/4.7.1/8426e1daf26a6f9adef55a150f3d3ee944da39d/timber-4.7.1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../src/flutter/caches/modules-2/files-2.1/com.jakewharton.timber/timber/4.7.1/8426e1daf26a6f9adef55a150f3d3ee944da39d/timber-4.7.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

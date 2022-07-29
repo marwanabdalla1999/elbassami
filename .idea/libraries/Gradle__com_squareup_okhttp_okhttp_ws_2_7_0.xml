@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: com.squareup.okhttp:okhttp-ws:2.7.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp-ws/2.7.0/ea871498d28a10d7c803c583b6b87fd74f4c6347/okhttp-ws-2.7.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../src/flutter/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp-ws/2.7.0/ea871498d28a10d7c803c583b6b87fd74f4c6347/okhttp-ws-2.7.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp-ws/2.7.0/52480aea01753311a391ec28778398f6a81fe149/okhttp-ws-2.7.0-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../src/flutter/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp-ws/2.7.0/52480aea01753311a391ec28778398f6a81fe149/okhttp-ws-2.7.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp-ws/2.7.0/33af59c1f931373db14559050bc4adf74aa9c6f8/okhttp-ws-2.7.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../src/flutter/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp-ws/2.7.0/33af59c1f931373db14559050bc4adf74aa9c6f8/okhttp-ws-2.7.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/colorAccent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/add_vehicles"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold">
+
+        </TextView>
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <AutoCompleteTextView
+                android:id="@+id/atvModel"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/white_with_corner"
+                android:drawableEnd="@drawable/ic_action_down_arrow"
+                android:drawableRight="@drawable/ic_action_down_arrow"
+                android:drawablePadding="10dp"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:gravity="center_vertical"
+                android:hint="@string/car_brand"
+                android:paddingStart="5dp"
+                android:paddingLeft="5dp"
+                android:paddingEnd="20dp"
+                android:paddingRight="20dp"
+                android:textColor="@color/black"></AutoCompleteTextView>
+
+            <AutoCompleteTextView
+                android:id="@+id/atvCarType"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/white_with_corner"
+                android:drawableEnd="@drawable/ic_action_down_arrow"
+                android:drawableRight="@drawable/ic_action_down_arrow"
+                android:drawablePadding="10dp"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:gravity="center_vertical"
+                android:hint="@string/car_type"
+                android:paddingStart="5dp"
+                android:paddingLeft="5dp"
+                android:paddingEnd="20dp"
+                android:paddingRight="20dp"
+                android:textColor="@color/black"></AutoCompleteTextView>
+
+            <AutoCompleteTextView
+                android:id="@+id/atvColor"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/white_with_corner"
+                android:drawableEnd="@drawable/ic_action_down_arrow"
+                android:drawableRight="@drawable/ic_action_down_arrow"
+                android:drawablePadding="10dp"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:gravity="center_vertical"
+                android:hint="@string/car_color"
+                android:paddingStart="5dp"
+                android:paddingLeft="5dp"
+                android:paddingEnd="20dp"
+                android:paddingRight="20dp"
+                android:textColor="@color/black"></AutoCompleteTextView>
+
+            <AutoCompleteTextView
+                android:id="@+id/atvCarYear"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/white_with_corner"
+                android:drawableEnd="@drawable/ic_action_down_arrow"
+                android:drawableRight="@drawable/ic_action_down_arrow"
+                android:drawablePadding="10dp"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:gravity="center_vertical"
+                android:hint="@string/car_year"
+                android:paddingStart="5dp"
+                android:paddingLeft="5dp"
+                android:paddingEnd="20dp"
+                android:paddingRight="20dp"
+                android:textColor="@color/black"></AutoCompleteTextView>
+
+            <AutoCompleteTextView
+                android:id="@+id/atvPlateType"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/white_with_corner"
+                android:drawableEnd="@drawable/ic_action_down_arrow"
+                android:drawableRight="@drawable/ic_action_down_arrow"
+                android:drawablePadding="10dp"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:gravity="center_vertical"
+                android:hint="@string/plateType"
+                android:paddingStart="5dp"
+                android:paddingLeft="5dp"
+                android:paddingEnd="20dp"
+                android:paddingRight="20dp"
+                android:textColor="@color/black"></AutoCompleteTextView>
+
+            <LinearLayout
+                android:id="@+id/editlayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:background="@color/white"
+                    android:text="@string/plate_number"
+                    android:textColor="@color/dark_grey"
+                    android:textSize="14dp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/etPiateNumber2"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/white_with_corner"
+                    android:digits="abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ 0123456789"
+                    android:gravity="center"
+                    android:inputType="textPersonName"
+                    android:paddingStart="5dp"
+                    android:paddingLeft="5dp"
+                    android:textColor="@color/black"
+                    android:visibility="visible">
+
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layoutOthers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:background="@color/white"
+                    android:text="@string/plate_number"
+                    android:textColor="@color/dark_grey"
+                    android:textSize="14dp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <EditText
+                    android:id="@+id/etPiateNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/white_with_corner"
+                    android:digits="abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ 0123456789"
+                    android:inputType="textPersonName"
+                    android:paddingStart="5dp"
+                    android:paddingLeft="5dp"
+                    android:textColor="@color/black"
+                    android:visibility="visible">
+
+                </EditText>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layoutSaudi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:background="@color/white"
+                    android:text="@string/plate_number"
+                    android:textColor="@color/dark_grey"
+                    android:textSize="14dp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <EditText
+                    android:id="@+id/etPlateSaudi"
+                    android:layout_width="80dp"
+                    android:layout_height="35dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/darkgray_with_corner"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:inputType="number"
+                    android:maxLength="4"
+                    android:paddingStart="5dp"
+                    android:paddingLeft="5dp"
+                    android:textColor="@color/colorPrimary">
+
+                </EditText>
+
+                <AutoCompleteTextView
+                    android:id="@+id/fristletter"
+                    android:layout_width="45dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="3dp"
+                    android:layout_marginLeft="3dp"
+                    android:background="@drawable/darkgray_with_corner"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:gravity="center|center_vertical"
+                    android:inputType="number"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18sp"
+                    android:textStyle="bold">
+
+                </AutoCompleteTextView>
+
+                <AutoCompleteTextView
+                    android:id="@+id/secondletter"
+                    android:layout_width="45dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="3dp"
+                    android:layout_marginLeft="3dp"
+                    android:background="@drawable/darkgray_with_corner"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:gravity="center|center_vertical"
+                    android:inputType="number"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18sp"
+                    android:textStyle="bold">
+
+                </AutoCompleteTextView>
+
+                <AutoCompleteTextView
+                    android:id="@+id/thirdletter"
+                    android:layout_width="45dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="3dp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginEnd="3dp"
+                    android:background="@drawable/darkgray_with_corner"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:gravity="center|center_vertical"
+                    android:inputType="number"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18sp"
+                    android:textStyle="bold">
+
+                </AutoCompleteTextView>
+
+            </LinearLayout>
+
+            <AutoCompleteTextView
+                android:id="@+id/atvnationalityofowner"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/white_with_corner"
+                android:drawableEnd="@drawable/ic_action_down_arrow"
+                android:drawableRight="@drawable/ic_action_down_arrow"
+                android:drawablePadding="10dp"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:gravity="center_vertical"
+                android:hint="@string/nationallty_owner"
+                android:paddingStart="5dp"
+                android:paddingLeft="5dp"
+                android:paddingEnd="20dp"
+                android:paddingRight="20dp"
+                android:textColor="@color/black"></AutoCompleteTextView>
+
+            <AutoCompleteTextView
+                android:id="@+id/atvidtype"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/white_with_corner"
+                android:drawableEnd="@drawable/ic_action_down_arrow"
+                android:drawableRight="@drawable/ic_action_down_arrow"
+                android:drawablePadding="10dp"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:gravity="center_vertical"
+                android:hint="@string/ID_type"
+                android:paddingStart="5dp"
+                android:paddingLeft="5dp"
+                android:paddingEnd="20dp"
+                android:paddingRight="20dp"
+                android:textColor="@color/black"></AutoCompleteTextView>
+
+            <EditText
+                android:id="@+id/etOwnerName"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/white_with_corner"
+                android:hint="@string/ownername"
+                android:inputType="text"
+                android:paddingStart="5dp"
+                android:paddingLeft="5dp"
+                android:textColor="@color/black">
+
+            </EditText>
+
+            <EditText
+                android:id="@+id/etIDNumber"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/white_with_corner"
+                android:hint="@string/idnumber_owner"
+                android:inputType="number"
+                android:maxLength="10"
+                android:paddingStart="5dp"
+                android:paddingLeft="5dp"
+                android:textColor="@color/black">
+
+            </EditText>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnAdd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/background_with_shadow"
+                    android:paddingStart="60dp"
+                    android:paddingEnd="60dp"
+                    android:text="@string/add"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold">
+
+                </Button>
+
+                <Button
+                    android:id="@+id/cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/bg_pinview"
+                    android:paddingStart="60dp"
+                    android:paddingEnd="60dp"
+                    android:text="@string/cancel"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColor="@color/green"
+                    android:textSize="18sp"
+                    android:textStyle="bold">
+
+                </Button>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

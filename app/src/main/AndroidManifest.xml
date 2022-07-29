@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.albassami.logistics">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the "MyLocation" functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <permission
+        android:name="android.permission.CALL_PRIVILEGED"
+        android:protectionLevel="signature" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <application
+        android:name=".AppController"
+        android:allowBackup="true"
+        android:appComponentFactory="androidx"
+        android:autoLink="phone"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:requestLegacyExternalStorage="true"
+        android:supportsRtl="true"
+        android:theme="@style/NoActionBarTheme"
+        android:usesCleartextTraffic="true"
+        tools:replace="android:appComponentFactory">
+        <activity android:name=".ui.activity.towing_done"></activity>
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCxzGfmlKSw1NA5lQuLUUVSmc_ae3_5GVY" />
+
+        <activity
+            android:name=".ui.activity.trackingtowing"
+            android:label="@string/title_activity_trackingtowing" />
+        <activity android:name=".ui.activity.detailsform" />
+        <activity
+            android:name=".ui.activity.select_from_to"
+            android:label="@string/title_activity_select_from_to" />
+        <activity android:name=".ui.activity.agreementactivity" />
+        <activity android:name=".ui.activity.tracking" />
+        <activity
+            android:name=".ui.activity.branches"
+            android:label="@string/title_activity_branches" />
+        <activity android:name=".ui.activity.contactus" />
+        <activity android:name=".ui.activity.sign_up1" />
+        <activity android:name=".ui.activity.NoInternetActivity" />
+        <activity android:name=".ui.activity.ActivityWaitingRequestAccept" />
+        <activity android:name=".ui.activity.FavProviderActivity" />
+        <activity android:name=".ui.activity.TransactionListActivity" />
+        <activity android:name=".ui.activity.RedeemActivity" />
+        <activity android:name=".ui.activity.WalletAcivity" />
+        <activity android:name=".ui.activity.BaseActivity" />
+        <activity android:name=".ui.activity.SocialLoginActivity" />
+        <activity android:name=".ui.activity.PaymentMethodActivity" />
+        <activity android:name=".ui.activity.ActivityLoginSigupOption" />
+        <activity android:name=".ui.activity.Terms_activity" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <activity
+            android:name=".ui.activity.SplashActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_api_id" />
+
+        <activity
+            android:name=".ui.activity.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBarTheme"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".ui.activity.onBordingScreen"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBarTheme"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".ui.activity.AddVehiclesActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBarTheme"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".ui.activity.ChangePasswordActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBarTheme"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name=".ui.activity.GetStartedActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBarTheme"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".ui.activity.SignInActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBarTheme"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".ui.activity.ChatActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBarTheme"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".ui.activity.SelectLocationActivity1"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBarTheme"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".ui.activity.ThankYouActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBarTheme"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".ui.activity.ProfileActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBarTheme"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".ui.activity.HistoryActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBarTheme"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".ui.activity.AskBotActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBarTheme"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".ui.activity.HelpwebActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBarTheme"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".ui.activity.LaterRequestsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBarTheme"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".ui.activity.NikolaWalletActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBarTheme"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".ui.activity.PayGateWeb"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBarTheme"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".ui.activity.PaymentsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBarTheme"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".ui.activity.OtpActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBarTheme"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".ui.activity.SignUpNextActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBarTheme"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".ui.Fragment.SignupFragment"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBarTheme"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".ui.activity.OrderSummaryActivity1"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBarTheme"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".ui.Fragment.ForgotpassFragment"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBarTheme"
+            android:windowSoftInputMode="stateHidden"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            tools:replace="android:theme" />
+        <activity android:name="com.soundcloud.android.crop.CropImageActivity" />
+        <activity
+            android:name="com.braintreepayments.api.BraintreeBrowserSwitchActivity"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="${applicationId}.braintree" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="com.paypal.android.sdk.payments.PayPalService"
+            android:exported="false" /> <!-- Required to use PayPal -->
+        <activity android:name="com.paypal.android.sdk.payments.PayPalProfileSharingActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.ProfileSharingConsentActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.FuturePaymentInfoActivity" />
+        <activity
+            android:name="com.paypal.android.sdk.payments.LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.OrderSummaryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.RideLaterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.ScheduleActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.SelectLocationActivity"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+
+        <receiver android:name=".fcm.OnBroadcastReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="android.net.wifi.WIFI_STATE_CHANGED" />
+                <action android:name="android.net.wifi.STATE_CHANGE" />
+
+                <category android:name="android.intent.category.HOME" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name=".fcm.InstanceIdServices">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".fcm.FCMIntentService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".Service.LocationService"
+            android:exported="false" />
+
+        <activity android:name=".ui.activity.SavedPlacesActivity" />
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="876c920c3456dc3d5ee98fdfea13603b604d6126" />
+    </application>
+
+</manifest>

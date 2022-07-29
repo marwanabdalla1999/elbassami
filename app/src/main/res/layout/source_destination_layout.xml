@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/toolbar_search_place"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="@drawable/background_with_shadow"
+        android:visibility="gone">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/search_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:background="@null"
+                android:padding="5dp"
+                app:srcCompat="@drawable/back" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="50dp"
+                android:text="@string/start_a_trip"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:layout_marginStart="50dp" />
+
+            <ImageButton
+                android:id="@+id/search_fav"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="10dp"
+                android:background="@null"
+                android:padding="5dp"
+                android:visibility="gone"
+                app:srcCompat="@drawable/ic_favorite_heart_button" />
+        </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:id="@+id/top_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar_search_place"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_start_des"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/start_destination"></ImageView>
+
+            <RelativeLayout
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/iv_end_des"
+                android:layout_below="@+id/iv_start_des"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:background="@color/white"></RelativeLayout>
+
+            <ImageView
+                android:id="@+id/iv_end_des"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/end_destination">
+
+            </ImageView>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/source_edit_back"
+                android:orientation="horizontal">
+
+                <AutoCompleteTextView
+                    android:id="@+id/et_source_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/et_color"
+                    android:hint="@string/txt_current_loc"
+                    android:imeOptions="actionSearch"
+                    android:padding="10dp"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/black"
+                    android:textSize="14sp"
+                    android:layout_marginEnd="5dp" />
+
+                <ImageView
+                    android:id="@+id/sourceFavIcon"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/unlike"
+                    android:visibility="gone"
+                    android:layout_marginEnd="5dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/stopLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/source_edit_back"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <AutoCompleteTextView
+                    android:id="@+id/et_stop_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/transparent"
+                    android:hint="@string/add_stop"
+                    android:imeOptions="actionSearch"
+                    android:padding="10dp"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textColorHint="#7aa7ef"
+                    android:textSize="14sp"
+                    android:layout_marginEnd="5dp" />
+
+                <ImageView
+                    android:id="@+id/stopFavIcon"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/unlike"
+                    android:visibility="gone"
+                    android:layout_marginEnd="5dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/destination_edit_back"
+                android:orientation="horizontal">
+
+                <AutoCompleteTextView
+                    android:id="@+id/et_destination_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/et_color"
+                    android:editable="false"
+                    android:hint="@string/txt_dest_hint"
+                    android:imeOptions="actionSearch"
+                    android:inputType="text"
+                    android:padding="10dp"
+                    android:singleLine="true"
+                    android:textColorHint="@color/black"
+                    android:textSize="14sp"
+                    android:layout_marginEnd="5dp" />
+
+                <ImageView
+                    android:id="@+id/destFavIcon"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/unlike"
+                    android:visibility="gone"
+                    android:layout_marginEnd="5dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/ic_action_calender"
+
+                />
+
+            <ImageView
+                android:id="@+id/addStop"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="0dp"
+                android:background="@drawable/ic_action_time" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/content_fragment"
+        android:layout_below="@+id/top_layout"
+        android:layout_marginTop="10dp">
+
+        <fragment
+            android:id="@+id/search_place_map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".ui.activity.MainActivity" />
+
+        <ImageView
+            android:id="@+id/pin_drop_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/drop_location"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/btn_pickLoc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btn_search"
+            android:layout_alignParentRight="true"
+            android:padding="7dp"
+            android:visibility="gone"
+            app:srcCompat="@drawable/ic_gps_fixed_indicator"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            android:id="@+id/btn_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/black"
+            android:padding="8dp"
+            android:text="@string/txt_go"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/content_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_alignParentBottom="true"
+        />
+</RelativeLayout>

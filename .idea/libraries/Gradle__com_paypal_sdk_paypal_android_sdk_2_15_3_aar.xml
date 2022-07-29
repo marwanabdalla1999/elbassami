@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.paypal.sdk:paypal-android-sdk:2.15.3@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2e61918dc2cda49e90604e4fd1eb032c/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ec59e41f231a2f0eafe3c1733b4a9180/jetified-paypal-android-sdk-2.15.3/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ec59e41f231a2f0eafe3c1733b4a9180/jetified-paypal-android-sdk-2.15.3/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ec59e41f231a2f0eafe3c1733b4a9180/jetified-paypal-android-sdk-2.15.3/jars/classes.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../src/flutter/caches/transforms-2/files-2.1/ec59e41f231a2f0eafe3c1733b4a9180/jetified-paypal-android-sdk-2.15.3/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../src/flutter/caches/transforms-2/files-2.1/ec59e41f231a2f0eafe3c1733b4a9180/jetified-paypal-android-sdk-2.15.3/res" />
+      <root url="file://$PROJECT_DIR$/../../../../src/flutter/caches/transforms-2/files-2.1/ec59e41f231a2f0eafe3c1733b4a9180/jetified-paypal-android-sdk-2.15.3/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

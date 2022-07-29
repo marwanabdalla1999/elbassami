@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.lifecycle:lifecycle-process:2.1.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/76c323ce3fe7168f6646c2056c23c346/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c4b2c5997ad8a803c20e14f831a4db33/jetified-lifecycle-process-2.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c4b2c5997ad8a803c20e14f831a4db33/jetified-lifecycle-process-2.1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c4b2c5997ad8a803c20e14f831a4db33/jetified-lifecycle-process-2.1.0/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../../../src/flutter/caches/transforms-2/files-2.1/c4b2c5997ad8a803c20e14f831a4db33/jetified-lifecycle-process-2.1.0/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../../../src/flutter/caches/transforms-2/files-2.1/c4b2c5997ad8a803c20e14f831a4db33/jetified-lifecycle-process-2.1.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../src/flutter/caches/transforms-2/files-2.1/c4b2c5997ad8a803c20e14f831a4db33/jetified-lifecycle-process-2.1.0/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-process/2.1.0/a3ddd1911f2911de0d6d090f83e0f3441d398f6e/lifecycle-process-2.1.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../src/flutter/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-process/2.1.0/a3ddd1911f2911de0d6d090f83e0f3441d398f6e/lifecycle-process-2.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

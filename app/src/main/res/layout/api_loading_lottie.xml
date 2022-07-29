@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.skyfishjy.library.RippleBackground xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/content"
+    android:layout_width="400dp"
+    android:layout_height="500dp"
+    android:layout_gravity="center"
+    android:layoutDirection="ltr"
+    app:rb_color="@color/ligthgreen"
+    app:rb_duration="3000"
+    app:rb_radius="45dp"
+    app:rb_rippleAmount="2"
+    app:rb_scale="6">
+
+ <RelativeLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:layout_centerInParent="true"
+     android:orientation="vertical"
+     android:padding="70dp">
+
+  <ImageView
+      android:id="@+id/loader"
+      android:layout_width="100dp"
+      android:layout_height="100dp"
+      android:layout_centerInParent="true"
+      android:background="@drawable/hero_classic" />
+
+  <com.albassami.logistics.NewUtilsAndPref.CustomText.CustomBoldRegularTextView
+      android:id="@+id/req_status"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/loader"
+      android:layout_centerHorizontal="true"
+      android:gravity="center"
+      android:text="@string/Loading"
+      android:textColor="@color/white"
+      android:textSize="25sp" />
+ </RelativeLayout>
+
+
+</com.skyfishjy.library.RippleBackground>

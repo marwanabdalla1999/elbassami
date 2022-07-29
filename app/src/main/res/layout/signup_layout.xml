@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@mipmap/ic_launcher" />
+
+    <com.albassami.logistics.NewUtilsAndPref.CustomText.CustomRegularTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="SignUp.."
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:background="@drawable/drawable_edittext_background"
+        android:orientation="horizontal"
+        android:paddingStart="15dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:paddingEnd="15dp">
+
+        <com.hbb20.CountryCodePicker
+            android:id="@+id/ccp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/header"
+            android:gravity="center"
+            app:contentColor="@color/black"
+            app:defaultNameCode="US"
+            app:textSize="18sp" />
+
+        <com.albassami.logistics.NewUtilsAndPref.CustomText.CustomRegularEditView
+            android:id="@+id/user_mobile_nuber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/transparent"
+            android:hint="@string/phn_no"
+            android:inputType="number"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_confirm_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:layout_marginTop="50dp"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            android:text="@string/next"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:paddingStart="50dp"
+            android:paddingEnd="50dp" />
+
+
+    <com.albassami.logistics.NewUtilsAndPref.CustomText.CustomRegularTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:id="@+id/redirectLogin"
+        android:text="Not here to SignUp! Please Login.."
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.MikeOrtiz:TouchImageView:3.0.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f0bdffc98dc48c15b4d7037e3ab41e20/jetified-TouchImageView-3.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f0bdffc98dc48c15b4d7037e3ab41e20/jetified-TouchImageView-3.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f0bdffc98dc48c15b4d7037e3ab41e20/jetified-TouchImageView-3.0.1/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../../../src/flutter/caches/transforms-2/files-2.1/f0bdffc98dc48c15b4d7037e3ab41e20/jetified-TouchImageView-3.0.1/res" />
+      <root url="file://$PROJECT_DIR$/../../../../src/flutter/caches/transforms-2/files-2.1/f0bdffc98dc48c15b4d7037e3ab41e20/jetified-TouchImageView-3.0.1/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../../../src/flutter/caches/transforms-2/files-2.1/f0bdffc98dc48c15b4d7037e3ab41e20/jetified-TouchImageView-3.0.1/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.MikeOrtiz/TouchImageView/3.0.1/93ab9b1cefdf299e4efcc268158835e5a042f405/TouchImageView-3.0.1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../src/flutter/caches/modules-2/files-2.1/com.github.MikeOrtiz/TouchImageView/3.0.1/f83485983015987dd55f9f668f9216c7b93d8f28/TouchImageView-3.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

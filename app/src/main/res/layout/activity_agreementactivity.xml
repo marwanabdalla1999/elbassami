@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.activity.agreementactivity">
+
+    <ScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/btnBack5"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/ic_action_back_green"
+                    android:padding="10dp">
+
+                </ImageView>
+
+                <RelativeLayout
+                    android:id="@+id/barMainLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_toEndOf="@+id/btnBack"
+                    android:layout_toRightOf="@+id/btnBack">
+
+                    <ImageView
+                        android:id="@+id/ivIcon"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/icontracking" />
+
+                    <TextView
+                        android:id="@+id/tvHeader"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="25dp"
+                        android:layout_toEndOf="@+id/ivIcon"
+                        android:layout_toRightOf="@+id/ivIcon"
+                        android:text="@string/tracking"
+                        android:textColor="@color/black"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1.5dp"
+                    android:layout_below="@+id/barMainLayout"
+                    android:background="@color/colorAccent"></RelativeLayout>
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/statusimgs"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/fullnowords" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/white_with_corner"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/agreementnumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginTop="10dp"
+                            android:text="@string/receiver"
+                            android:textColor="@color/deep_grey"
+                            android:textSize="12dp">
+
+                        </TextView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginTop="10dp"
+                            android:text="@string/r_mobile"
+                            android:textColor="@color/deep_grey"
+                            android:textSize="12dp">
+
+                        </TextView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginTop="10dp"
+                            android:text="@string/customer_name"
+                            android:textColor="@color/deep_grey"
+                            android:textSize="12dp">
+
+                        </TextView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginTop="10dp"
+                            android:text="@string/carmodel"
+                            android:textColor="@color/deep_grey"
+                            android:textSize="12dp">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/textView58"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginTop="10dp"
+                            android:text="@string/service_name"
+                            android:textColor="@color/deep_grey"
+                            android:textSize="12dp">
+
+                        </TextView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginTop="10dp"
+                            android:text="@string/source"
+                            android:textColor="@color/deep_grey"
+                            android:textSize="12dp">
+
+                        </TextView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginTop="10dp"
+                            android:text="@string/destination"
+                            android:textColor="@color/deep_grey"
+                            android:textSize="12dp">
+
+                        </TextView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginTop="10dp"
+                            android:text="@string/shipmentdate"
+                            android:textColor="@color/deep_grey"
+                            android:textSize="12dp">
+
+                        </TextView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginTop="10dp"
+                            android:text="@string/expecteddate"
+                            android:textColor="@color/deep_grey"
+                            android:textSize="12dp">
+
+                        </TextView>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/textView37"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerHorizontal="true"
+                                android:layout_centerVertical="true"
+                                android:text="@string/homepickup"
+                                android:textColor="@color/deep_grey"
+                                android:textSize="12dp">
+
+                            </TextView>
+
+                            <ImageView
+                                android:id="@+id/ischecked1"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                app:srcCompat="@drawable/ic_clear_black_24dp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/textView38"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerHorizontal="true"
+                                android:layout_centerVertical="true"
+                                android:text="@string/homedelivery1"
+                                android:textColor="@color/deep_grey"
+                                android:textSize="12dp">
+
+                            </TextView>
+
+                            <ImageView
+                                android:id="@+id/ischecked"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                app:srcCompat="@drawable/ic_check_black_24dp" />
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/textView39"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginTop="5dp"
+                            android:text="@string/Small"
+                            android:textColor="@color/deep_grey"
+                            android:textSize="12dp">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/textView40"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginTop="10dp"
+                            android:text="@string/medium"
+                            android:textColor="@color/deep_grey"
+                            android:textSize="12dp">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/textView41"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginTop="10dp"
+                            android:text="@string/Large"
+                            android:textColor="@color/deep_grey"
+                            android:textSize="12dp">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/textView42"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginTop="10dp"
+                            android:text="@string/total"
+                            android:textColor="@color/deep_grey"
+                            android:textSize="12dp">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/textView43"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginTop="10dp"
+                            android:text="@string/dueamount"
+                            android:textColor="@color/deep_grey"
+                            android:textSize="12dp">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/textView44"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginTop="10dp"
+                            android:text="@string/piadamount"
+                            android:textColor="@color/deep_grey"
+                            android:textSize="12dp">
+
+                        </TextView>
+
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="10dp"
+                        android:background="#000000">
+
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvReceiverName"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="10dp"
+                            android:textColor="@color/black"
+                            android:textSize="12dp">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/tvPhoneNumber"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="10dp"
+                            android:textColor="@color/black"
+                            android:textSize="12dp">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/customername"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="10dp"
+                            android:textColor="@color/black"
+                            android:textSize="12dp">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/tvCarSize"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="10dp"
+                            android:gravity="start"
+                            android:textColor="@color/black"
+                            android:textSize="12dp">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/service_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="10dp"
+                            android:gravity="start"
+                            android:textColor="@color/black"
+                            android:textSize="12dp">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/tvSource"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="10dp"
+                            android:textColor="@color/black"
+                            android:textSize="12dp">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/tvDestination"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="10dp"
+                            android:textColor="@color/black"
+                            android:textSize="12dp">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/tvshapment_date"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="10dp"
+                            android:text=""
+                            android:textColor="@color/black"
+                            android:textSize="12dp">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/tvexpacted_date"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="10dp"
+                            android:text=""
+                            android:textColor="@color/black"
+                            android:textSize="12dp">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/homepickup2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="10dp"
+                            android:text=""
+                            android:textColor="@color/black"
+                            android:textSize="12dp">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/homeddeleviry2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="10dp"
+                            android:text=""
+                            android:textColor="@color/black"
+                            android:textSize="12dp">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/small1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="10dp"
+                            android:text=""
+                            android:textColor="@color/black"
+                            android:textSize="12dp">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/medium1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="10dp"
+                            android:text=""
+                            android:textColor="@color/black"
+                            android:textSize="12dp">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/large1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="10dp"
+                            android:text=""
+                            android:textColor="@color/black"
+                            android:textSize="12dp">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/totalcoast"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="10dp"
+                            android:text=""
+                            android:textColor="@color/black"
+                            android:textSize="12dp">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/dueamount"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="10dp"
+                            android:text=""
+                            android:textColor="@color/black"
+                            android:textSize="12dp">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/paidamount"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="10dp"
+                            android:text=""
+                            android:textColor="@color/black"
+                            android:textSize="12dp">
+
+                        </TextView>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/pay"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/app_theam"
+                    android:text="سـداد"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/cancel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/red"
+                    android:text="الغــاء"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

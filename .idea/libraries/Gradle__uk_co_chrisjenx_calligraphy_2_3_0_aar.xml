@@ -1,0 +1,37 @@
+<component name="libraryTable">
+  <library name="Gradle: uk.co.chrisjenx:calligraphy:2.3.0@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/a671f442259f7d542ad14b09e8239174/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/a671f442259f7d542ad14b09e8239174/res" />
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/d102d121b80a21cb7bf785592d14cb98/jetified-calligraphy-2.3.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/d102d121b80a21cb7bf785592d14cb98/jetified-calligraphy-2.3.0/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/d102d121b80a21cb7bf785592d14cb98/jetified-calligraphy-2.3.0/res" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/a55d7ae47135f276539bfd9d9384769d/jetified-calligraphy-2.3.0/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/a55d7ae47135f276539bfd9d9384769d/jetified-calligraphy-2.3.0/res" />
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/a55d7ae47135f276539bfd9d9384769d/jetified-calligraphy-2.3.0/jars/classes.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/d102d121b80a21cb7bf785592d14cb98/jetified-calligraphy-2.3.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/d102d121b80a21cb7bf785592d14cb98/jetified-calligraphy-2.3.0/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/d102d121b80a21cb7bf785592d14cb98/jetified-calligraphy-2.3.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d102d121b80a21cb7bf785592d14cb98/jetified-calligraphy-2.3.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d102d121b80a21cb7bf785592d14cb98/jetified-calligraphy-2.3.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d102d121b80a21cb7bf785592d14cb98/jetified-calligraphy-2.3.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7b88be8af72ff6e04df02a147edd785a/jetified-calligraphy-2.3.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7b88be8af72ff6e04df02a147edd785a/jetified-calligraphy-2.3.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7b88be8af72ff6e04df02a147edd785a/jetified-calligraphy-2.3.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/79c9b111ea77fe55872d5684b64d0cd3/jetified-calligraphy-2.3.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/79c9b111ea77fe55872d5684b64d0cd3/jetified-calligraphy-2.3.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/79c9b111ea77fe55872d5684b64d0cd3/jetified-calligraphy-2.3.0/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../../../src/flutter/caches/transforms-2/files-2.1/37e842a753e2dd8216e9fe32fc119cb4/jetified-calligraphy-2.3.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../src/flutter/caches/transforms-2/files-2.1/37e842a753e2dd8216e9fe32fc119cb4/jetified-calligraphy-2.3.0/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../../../src/flutter/caches/transforms-2/files-2.1/37e842a753e2dd8216e9fe32fc119cb4/jetified-calligraphy-2.3.0/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/uk.co.chrisjenx/calligraphy/2.3.0/775c7415bb896ff97ac6117710335a5d9cd3b5ae/calligraphy-2.3.0-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../src/flutter/caches/modules-2/files-2.1/uk.co.chrisjenx/calligraphy/2.3.0/775c7415bb896ff97ac6117710335a5d9cd3b5ae/calligraphy-2.3.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/uk.co.chrisjenx/calligraphy/2.3.0/e2637b5ce67253023fcba23a3188ec9af473481a/calligraphy-2.3.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../src/flutter/caches/modules-2/files-2.1/uk.co.chrisjenx/calligraphy/2.3.0/e2637b5ce67253023fcba23a3188ec9af473481a/calligraphy-2.3.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

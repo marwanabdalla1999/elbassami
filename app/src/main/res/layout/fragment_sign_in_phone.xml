@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="120dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="clip_vertical"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="@string/EnterYourphonenumber"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:elevation="10dp"
+        android:layoutDirection="ltr"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <AutoCompleteTextView
+                android:id="@+id/countrycode"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/drawable_edittext_background"
+                android:drawableEnd="@drawable/ic_action_down_arrow"
+                android:drawablePadding="10dp"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:gravity="center|center_vertical"
+                android:hint="02- EG"
+                android:inputType="number"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:textColor="@color/black"
+                android:textSize="9sp">
+
+            </AutoCompleteTextView>
+
+            <com.albassami.logistics.NewUtilsAndPref.CustomText.CustomRegularEditView
+                android:id="@+id/user_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/drawable_edittext_background"
+                android:drawableRight="@drawable/phone"
+                android:drawablePadding="20dp"
+                android:hint="@string/phonenumber"
+                android:inputType="number"
+                android:paddingStart="10dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="15dp"
+                android:paddingEnd="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="15dp"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textColorHint="@color/circle_color"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/nextbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/rouded_green"
+        android:text="@string/next"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

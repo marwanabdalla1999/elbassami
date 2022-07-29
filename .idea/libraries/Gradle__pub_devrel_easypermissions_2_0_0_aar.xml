@@ -1,0 +1,37 @@
+<component name="libraryTable">
+  <library name="Gradle: pub.devrel:easypermissions:2.0.0@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/950591cc05c9736a1b19dda02567f64d/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/950591cc05c9736a1b19dda02567f64d/res" />
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/f75657bf75d4a9cbdf130cd4296ecf02/jetified-easypermissions-2.0.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/f75657bf75d4a9cbdf130cd4296ecf02/jetified-easypermissions-2.0.0/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/f75657bf75d4a9cbdf130cd4296ecf02/jetified-easypermissions-2.0.0/res" />
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/4585fd5d67b5fc16366030ec5b59d906/jetified-easypermissions-2.0.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/4585fd5d67b5fc16366030ec5b59d906/jetified-easypermissions-2.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/4585fd5d67b5fc16366030ec5b59d906/jetified-easypermissions-2.0.0/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/f75657bf75d4a9cbdf130cd4296ecf02/jetified-easypermissions-2.0.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/f75657bf75d4a9cbdf130cd4296ecf02/jetified-easypermissions-2.0.0/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/f75657bf75d4a9cbdf130cd4296ecf02/jetified-easypermissions-2.0.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f75657bf75d4a9cbdf130cd4296ecf02/jetified-easypermissions-2.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f75657bf75d4a9cbdf130cd4296ecf02/jetified-easypermissions-2.0.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f75657bf75d4a9cbdf130cd4296ecf02/jetified-easypermissions-2.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/47b595dcb054883f18f0ece12d5d4127/jetified-easypermissions-2.0.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/47b595dcb054883f18f0ece12d5d4127/jetified-easypermissions-2.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/47b595dcb054883f18f0ece12d5d4127/jetified-easypermissions-2.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/01913313f91af3edd8d4a0528abb7c8a/jetified-easypermissions-2.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/01913313f91af3edd8d4a0528abb7c8a/jetified-easypermissions-2.0.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/01913313f91af3edd8d4a0528abb7c8a/jetified-easypermissions-2.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../../../../src/flutter/caches/transforms-2/files-2.1/0b1e7719594b63009ce537e239425b9f/jetified-easypermissions-2.0.0/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../../../src/flutter/caches/transforms-2/files-2.1/0b1e7719594b63009ce537e239425b9f/jetified-easypermissions-2.0.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../src/flutter/caches/transforms-2/files-2.1/0b1e7719594b63009ce537e239425b9f/jetified-easypermissions-2.0.0/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/pub.devrel/easypermissions/2.0.0/96322a5a177259dc63bfb5cb659ea24bf818019d/easypermissions-2.0.0-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../src/flutter/caches/modules-2/files-2.1/pub.devrel/easypermissions/2.0.0/96322a5a177259dc63bfb5cb659ea24bf818019d/easypermissions-2.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/pub.devrel/easypermissions/2.0.0/cd68cd37a38e17caa7d0470588c35b1a82e72e2a/easypermissions-2.0.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../src/flutter/caches/modules-2/files-2.1/pub.devrel/easypermissions/2.0.0/cd68cd37a38e17caa7d0470588c35b1a82e72e2a/easypermissions-2.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

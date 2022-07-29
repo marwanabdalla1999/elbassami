@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:background="@drawable/background_with_shadow"
+    android:paddingTop="10dp"
+    android:gravity="center"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp">
+
+    <com.albassami.logistics.NewUtilsAndPref.CustomText.CustomRegularTextView
+        android:id="@+id/reason_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/issue_title"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="true"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textColor="@color/black"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/cancel_reason_lst"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/reason_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:layout_centerInParent="true">
+
+    </androidx.recyclerview.widget.RecyclerView>
+</RelativeLayout>

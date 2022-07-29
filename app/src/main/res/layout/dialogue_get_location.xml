@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/rl"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <fragment
+            android:id="@+id/search_place_map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".ui.activity.SelectLocationActivity"
+            android:layout_above="@+id/buttonnext"/>
+
+        <LinearLayout
+            android:id="@+id/statuslayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#369E3A"
+            android:orientation="horizontal"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp">
+
+            <ImageView
+                android:id="@+id/Backbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                app:srcCompat="@drawable/back" />
+
+            <TextView
+                android:id="@+id/status1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="0dp"
+                android:gravity="center"
+                android:paddingEnd="30dp"
+                android:text="TextView"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/buttonnext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp">
+
+            <LinearLayout
+                android:id="@+id/btnDone1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="false"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/next"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/rouded_green"
+                    android:text="@string/next"
+                    android:textColor="#FFFF"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btnDone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="false"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <Button
+                    android:id="@+id/applaycurrentlocation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+
+                    android:background="@drawable/gray"
+                    android:text="@string/stayinmycurrentlocation"
+                    android:textSize="15sp" />
+
+                <Button
+                    android:id="@+id/applaynewlocation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/rouded_green"
+                    android:text="@string/applynewlocation"
+                    android:textColor="#FFFF"
+                    android:textSize="15sp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/rounded_white"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/fromlocation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="1"
+                android:drawableStart="@drawable/ic_radio_button_checked_black_24dp"
+                android:gravity="start|center_vertical"
+                android:text="@string/from"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:textStyle="normal"
+                android:visibility="visible" />
+
+            <RelativeLayout
+                android:id="@+id/fromlocationtransastor"
+                android:layout_width="1dp"
+                android:layout_height="35dp"
+                android:layout_gravity="start"
+                android:layout_marginStart="17dp"
+                android:layout_weight="1"
+                android:background="#54000000">
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <ImageView
+                    android:id="@+id/status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start|top"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="0"
+                    android:visibility="visible"
+                    app:srcCompat="@drawable/ic_radio_button_checked_black_24dp1" />
+
+                <EditText
+                    android:id="@+id/search"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="5dp"
+
+                    android:layout_weight="1"
+                    android:background="#FFFFFF"
+                    android:hint="@string/pick_location"
+                    android:imeOptions="actionSearch"
+                    android:inputType="textPersonName"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:id="@+id/search1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="2dp"
+                    android:src="@drawable/ic_search_black_24dp"></ImageView>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/mylocation"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignBottom="@+id/search_place_map"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:visibility="visible"
+            app:cardBackgroundColor="#FFFFFF"
+            app:cardCornerRadius="100dp">
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="35dp"
+
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_my_location_black_24dp"></ImageView>
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="130dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/pickup_location" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

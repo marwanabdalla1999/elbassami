@@ -1,0 +1,45 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\ayman\\Documents\\GitHub\\app_customer\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\ayman\\.gradle\\caches\\transforms-2\\files-2.1\\90bd8bcff794731322b3be69455c9533\\jetified-snackbar-2.11.0\\res\\values-v11\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "162",
+                        "endColumns": "45",
+                        "endOffsets": "203"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "45",
+                        "endOffsets": "96"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\ayman\\.gradle\\caches\\transforms-2\\files-2.1\\9ba51cea56436f7cf466df69c8cc6205\\jetified-zxing-android-embedded-3.2.0\\res\\values-v11\\values-v11.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "3",
+                        "endColumns": "10",
+                        "endOffsets": "150"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "101",
+                        "endLines": "4",
+                        "endColumns": "10",
+                        "endOffsets": "196"
+                    }
+                }
+            ]
+        }
+    ]
+}

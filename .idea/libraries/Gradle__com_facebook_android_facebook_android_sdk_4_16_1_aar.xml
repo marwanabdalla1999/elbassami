@@ -1,0 +1,35 @@
+<component name="libraryTable">
+  <library name="Gradle: com.facebook.android:facebook-android-sdk:4.16.1@aar">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/5c94e6e774d1f1a8aab9a707912c8541/jetified-facebook-android-sdk-4.16.1/res" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/5c94e6e774d1f1a8aab9a707912c8541/jetified-facebook-android-sdk-4.16.1/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/5c94e6e774d1f1a8aab9a707912c8541/jetified-facebook-android-sdk-4.16.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/b2c2ad12c23b0d37d128c7d974d68855/jetified-facebook-android-sdk-4.16.1/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/b2c2ad12c23b0d37d128c7d974d68855/jetified-facebook-android-sdk-4.16.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/b2c2ad12c23b0d37d128c7d974d68855/jetified-facebook-android-sdk-4.16.1/res" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/5c94e6e774d1f1a8aab9a707912c8541/jetified-facebook-android-sdk-4.16.1/res" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/5c94e6e774d1f1a8aab9a707912c8541/jetified-facebook-android-sdk-4.16.1/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/5c94e6e774d1f1a8aab9a707912c8541/jetified-facebook-android-sdk-4.16.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5c94e6e774d1f1a8aab9a707912c8541/jetified-facebook-android-sdk-4.16.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5c94e6e774d1f1a8aab9a707912c8541/jetified-facebook-android-sdk-4.16.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5c94e6e774d1f1a8aab9a707912c8541/jetified-facebook-android-sdk-4.16.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a3fe65a15c1e8f3264cd99c813d762ae/jetified-facebook-android-sdk-4.16.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a3fe65a15c1e8f3264cd99c813d762ae/jetified-facebook-android-sdk-4.16.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a3fe65a15c1e8f3264cd99c813d762ae/jetified-facebook-android-sdk-4.16.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b8c9c8c2498d29ca8d3ead15c60cfe87/jetified-facebook-android-sdk-4.16.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b8c9c8c2498d29ca8d3ead15c60cfe87/jetified-facebook-android-sdk-4.16.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b8c9c8c2498d29ca8d3ead15c60cfe87/jetified-facebook-android-sdk-4.16.1/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../../../src/flutter/caches/transforms-2/files-2.1/c832f80f2766afff838b6b9eda398e38/jetified-facebook-android-sdk-4.16.1/res" />
+      <root url="jar://$PROJECT_DIR$/../../../../src/flutter/caches/transforms-2/files-2.1/c832f80f2766afff838b6b9eda398e38/jetified-facebook-android-sdk-4.16.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../src/flutter/caches/transforms-2/files-2.1/c832f80f2766afff838b6b9eda398e38/jetified-facebook-android-sdk-4.16.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.android/facebook-android-sdk/4.16.1/a96a456b4989d2aa19f6e6b0f26fabd75a9f30a0/facebook-android-sdk-4.16.1-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../src/flutter/caches/modules-2/files-2.1/com.facebook.android/facebook-android-sdk/4.16.1/a96a456b4989d2aa19f6e6b0f26fabd75a9f30a0/facebook-android-sdk-4.16.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.android/facebook-android-sdk/4.16.1/fc12b3c982cd78b884fac44a1e662fb71dc8879d/facebook-android-sdk-4.16.1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../src/flutter/caches/modules-2/files-2.1/com.facebook.android/facebook-android-sdk/4.16.1/fc12b3c982cd78b884fac44a1e662fb71dc8879d/facebook-android-sdk-4.16.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

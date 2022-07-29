@@ -1,0 +1,2 @@
+include ':FORTSDKv1.8'
+include ':app', ':reclv_animation', ':FORTSDKv1.7'

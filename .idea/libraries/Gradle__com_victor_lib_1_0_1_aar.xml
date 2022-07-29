@@ -1,0 +1,20 @@
+<component name="libraryTable">
+  <library name="Gradle: com.victor:lib:1.0.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9c74101a4b6eee624ba2fdad56450e69/jetified-lib-1.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9c74101a4b6eee624ba2fdad56450e69/jetified-lib-1.0.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9c74101a4b6eee624ba2fdad56450e69/jetified-lib-1.0.1/res" />
+      <root url="file://$PROJECT_DIR$/../../../../src/flutter/caches/transforms-2/files-2.1/9c74101a4b6eee624ba2fdad56450e69/jetified-lib-1.0.1/res" />
+      <root url="jar://$PROJECT_DIR$/../../../../src/flutter/caches/transforms-2/files-2.1/9c74101a4b6eee624ba2fdad56450e69/jetified-lib-1.0.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../src/flutter/caches/transforms-2/files-2.1/9c74101a4b6eee624ba2fdad56450e69/jetified-lib-1.0.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.victor/lib/1.0.1/2d7761ba163a34881f56523a115efe2192f66f40/lib-1.0.1-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../src/flutter/caches/modules-2/files-2.1/com.victor/lib/1.0.1/2d7761ba163a34881f56523a115efe2192f66f40/lib-1.0.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.victor/lib/1.0.1/8d0bd62f6b15ae5edf3f2abb6567e6400e2fec39/lib-1.0.1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../src/flutter/caches/modules-2/files-2.1/com.victor/lib/1.0.1/8d0bd62f6b15ae5edf3f2abb6567e6400e2fec39/lib-1.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

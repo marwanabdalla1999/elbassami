@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Gradle: com.crashlytics.sdk.android:answers:1.4.7@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/acdbec826f76e56dba5063732e70390f/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/acdbec826f76e56dba5063732e70390f/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/47ba9ac09b58a832e94946333094c5bd/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/eca8646143b0c0c9bb19c0098ab42eac/jetified-answers-1.4.7/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/eca8646143b0c0c9bb19c0098ab42eac/jetified-answers-1.4.7/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/eca8646143b0c0c9bb19c0098ab42eac/jetified-answers-1.4.7/res" />
+      <root url="jar://$PROJECT_DIR$/../../../../src/flutter/caches/transforms-2/files-2.1/eca8646143b0c0c9bb19c0098ab42eac/jetified-answers-1.4.7/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../src/flutter/caches/transforms-2/files-2.1/eca8646143b0c0c9bb19c0098ab42eac/jetified-answers-1.4.7/res" />
+      <root url="file://$PROJECT_DIR$/../../../../src/flutter/caches/transforms-2/files-2.1/eca8646143b0c0c9bb19c0098ab42eac/jetified-answers-1.4.7/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.Fragment.Signup_information" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:context=".ui.Fragment.Signup_information">
+
+
+        <com.albassami.logistics.NewUtilsAndPref.CustomText.CustomRegularEditView
+            android:id="@+id/fristname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="20dp"
+
+            android:layout_marginRight="20dp"
+            android:background="@drawable/white_with_corner"
+            android:drawableStart="@drawable/ic_person_black_24dp"
+            android:drawablePadding="20dp"
+            android:hint="@string/first_name"
+            android:inputType="text"
+            android:paddingStart="10dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="10dp"
+            android:paddingBottom="10dp"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="20sp" />
+
+        <com.albassami.logistics.NewUtilsAndPref.CustomText.CustomRegularEditView
+            android:id="@+id/lastname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/white_with_corner"
+            android:drawableStart="@drawable/ic_person_black_24dp"
+            android:drawablePadding="20dp"
+            android:hint="@string/last_Name"
+            android:inputType="text"
+            android:paddingStart="10dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="20sp" />
+
+        <AutoCompleteTextView
+            android:id="@+id/atvNationality4"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/white_with_corner"
+            android:drawableEnd="@drawable/ic_action_down_arrow"
+            android:drawableRight="@drawable/ic_action_down_arrow"
+            android:drawablePadding="10dp"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:gravity="center_vertical"
+            android:hint="@string/selectnationality"
+            android:paddingStart="5dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="20dp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/black"
+            android:textSize="15sp">
+
+        </AutoCompleteTextView>
+
+        <AutoCompleteTextView
+            android:id="@+id/atvNationality5"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/white_with_corner"
+            android:drawableEnd="@drawable/ic_action_down_arrow"
+            android:drawableRight="@drawable/ic_action_down_arrow"
+            android:drawablePadding="10dp"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:gravity="center_vertical"
+            android:hint="@string/select_id_type"
+            android:paddingStart="5dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="20dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/black"
+            android:textSize="15sp">
+
+        </AutoCompleteTextView>
+
+        <com.albassami.logistics.NewUtilsAndPref.CustomText.CustomRegularEditView
+            android:id="@+id/ID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/white_with_corner"
+            android:drawableStart="@drawable/ic_lock_open_black_24dp"
+            android:drawablePadding="20dp"
+            android:hint="@string/idnumber"
+            android:inputType="number"
+            android:maxLength="10"
+            android:paddingStart="10dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textColorHint="@color/circle_color"
+            android:textSize="20sp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/regPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:hintAnimationEnabled="false"
+            app:passwordToggleEnabled="true"
+            app:passwordToggleTint="@color/bt_light_gray">
+
+            <com.albassami.logistics.NewUtilsAndPref.CustomText.CustomRegularEditView
+                android:id="@+id/user_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/white_with_corner"
+                android:drawableStart="@drawable/ic_lock_open_black_24dp"
+                android:drawablePadding="20dp"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                android:paddingStart="10dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:paddingEnd="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="10dp"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textColorHint="@color/bt_light_gray"
+                android:textSize="20sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/Password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:hintAnimationEnabled="false"
+            app:passwordToggleEnabled="true"
+            app:passwordToggleTint="@color/bt_light_gray">
+
+            <com.albassami.logistics.NewUtilsAndPref.CustomText.CustomRegularEditView
+                android:id="@+id/confpassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/white_with_corner"
+                android:drawableStart="@drawable/ic_lock_open_black_24dp"
+                android:drawablePadding="20dp"
+                android:hint="@string/confirm_password"
+                android:inputType="textPassword"
+                android:paddingStart="10dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="15dp"
+                android:paddingEnd="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="15dp"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textColorHint="@color/bt_light_gray"
+                android:textSize="20sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/drawable_edittext_background"
+            android:orientation="horizontal"
+            android:weightSum="2" />
+
+
+        <CheckBox
+            android:id="@+id/acceptterms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:text="@string/please_accept_our_terms_and_conditions_to_proceed" />
+
+
+        <Button
+            android:id="@+id/signup"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/btn_bag"
+            android:gravity="center"
+            android:paddingStart="50dp"
+            android:paddingLeft="50dp"
+            android:paddingEnd="50dp"
+            android:paddingRight="50dp"
+            android:text="@string/sign_up"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+</ScrollView>

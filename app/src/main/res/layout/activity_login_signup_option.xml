@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/tv_app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/splash_screen" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bottom_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="200dp"
+        android:text="@string/option_text"
+        android:textColor="@color/deep_grey"
+        android:textSize="16dp"></TextView>
+
+    <LinearLayout
+        android:id="@+id/bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="50dp"
+        android:gravity="bottom"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_marginEnd="50dp"
+        android:layout_marginStart="50dp">
+
+        <TextView
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/rouded_green"
+            android:gravity="center_horizontal|center_vertical"
+            android:paddingLeft="25dp"
+            android:paddingTop="10dp"
+            android:paddingRight="25dp"
+            android:paddingBottom="10dp"
+            android:text="@string/login"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:layout_marginEnd="10dp"
+            android:paddingStart="25dp"
+            android:paddingEnd="25dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/btnRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/rouded_green"
+            android:gravity="center_horizontal|center_vertical"
+            android:paddingLeft="25dp"
+            android:paddingTop="10dp"
+            android:paddingRight="25dp"
+            android:paddingBottom="10dp"
+            android:text="@string/register"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:paddingEnd="25dp"
+            android:layout_marginStart="10dp"
+            android:paddingStart="25dp">
+
+        </TextView>
+    </LinearLayout>
+</RelativeLayout>

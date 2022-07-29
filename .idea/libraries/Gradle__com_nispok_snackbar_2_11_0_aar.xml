@@ -1,0 +1,46 @@
+<component name="libraryTable">
+  <library name="Gradle: com.nispok:snackbar:2.11.0@aar">
+    <ANNOTATIONS>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/15a923ff58fa6715312d9bed708a39ae/jetified-snackbar-2.11.0/annotations.zip!/" />
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/cdb5760e95daad8d28112080e9900aab/jetified-snackbar-2.11.0/annotations.zip!/" />
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/15a923ff58fa6715312d9bed708a39ae/jetified-snackbar-2.11.0/annotations.zip!/" />
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/15a923ff58fa6715312d9bed708a39ae/jetified-snackbar-2.11.0/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/15a923ff58fa6715312d9bed708a39ae/jetified-snackbar-2.11.0/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/90bd8bcff794731322b3be69455c9533/jetified-snackbar-2.11.0/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/08b64944aae70bb3156f6f90c52c1afa/jetified-snackbar-2.11.0/annotations.zip!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../src/flutter/caches/transforms-2/files-2.1/a0034c75b6f0a6fdd708ea6f5e875929/jetified-snackbar-2.11.0/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/15a923ff58fa6715312d9bed708a39ae/jetified-snackbar-2.11.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/15a923ff58fa6715312d9bed708a39ae/jetified-snackbar-2.11.0/res" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/15a923ff58fa6715312d9bed708a39ae/jetified-snackbar-2.11.0/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/cdb5760e95daad8d28112080e9900aab/jetified-snackbar-2.11.0/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/cdb5760e95daad8d28112080e9900aab/jetified-snackbar-2.11.0/res" />
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/cdb5760e95daad8d28112080e9900aab/jetified-snackbar-2.11.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/15a923ff58fa6715312d9bed708a39ae/jetified-snackbar-2.11.0/res" />
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/15a923ff58fa6715312d9bed708a39ae/jetified-snackbar-2.11.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/15a923ff58fa6715312d9bed708a39ae/jetified-snackbar-2.11.0/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/15a923ff58fa6715312d9bed708a39ae/jetified-snackbar-2.11.0/res" />
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/15a923ff58fa6715312d9bed708a39ae/jetified-snackbar-2.11.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/15a923ff58fa6715312d9bed708a39ae/jetified-snackbar-2.11.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/15a923ff58fa6715312d9bed708a39ae/jetified-snackbar-2.11.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/15a923ff58fa6715312d9bed708a39ae/jetified-snackbar-2.11.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/15a923ff58fa6715312d9bed708a39ae/jetified-snackbar-2.11.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/90bd8bcff794731322b3be69455c9533/jetified-snackbar-2.11.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/90bd8bcff794731322b3be69455c9533/jetified-snackbar-2.11.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/90bd8bcff794731322b3be69455c9533/jetified-snackbar-2.11.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/08b64944aae70bb3156f6f90c52c1afa/jetified-snackbar-2.11.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/08b64944aae70bb3156f6f90c52c1afa/jetified-snackbar-2.11.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/08b64944aae70bb3156f6f90c52c1afa/jetified-snackbar-2.11.0/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../../../src/flutter/caches/transforms-2/files-2.1/a0034c75b6f0a6fdd708ea6f5e875929/jetified-snackbar-2.11.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../src/flutter/caches/transforms-2/files-2.1/a0034c75b6f0a6fdd708ea6f5e875929/jetified-snackbar-2.11.0/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../../../src/flutter/caches/transforms-2/files-2.1/a0034c75b6f0a6fdd708ea6f5e875929/jetified-snackbar-2.11.0/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.nispok/snackbar/2.11.0/7ad0d3ceff28fe71e2c574ad135e122fa8d5c24c/snackbar-2.11.0-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.nispok/snackbar/2.11.0/7ad0d3ceff28fe71e2c574ad135e122fa8d5c24c/snackbar-2.11.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../src/flutter/caches/modules-2/files-2.1/com.nispok/snackbar/2.11.0/7ad0d3ceff28fe71e2c574ad135e122fa8d5c24c/snackbar-2.11.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

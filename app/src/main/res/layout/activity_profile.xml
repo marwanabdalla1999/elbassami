@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/actionbar_lay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar_profile"
+                android:layout_width="match_parent"
+                android:layout_height="?android:attr/actionBarSize"
+                android:background="@drawable/background_with_shadow">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageButton
+                        android:id="@+id/profile_back"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:background="@null"
+                        android:padding="10dp"
+                        app:srcCompat="@drawable/back" />
+
+                    <com.albassami.logistics.NewUtilsAndPref.CustomText.CustomBoldRegularTextView
+                        android:id="@+id/btn_edit_profile"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:gravity="end"
+                        android:paddingEnd="10dp"
+                        android:paddingRight="10dp"
+                        android:text="@string/btn_edit"
+                        android:textColor="#FFFFFF"
+                        android:textSize="18sp" />
+                </RelativeLayout>
+            </androidx.appcompat.widget.Toolbar>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/profile_img_lay"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_below="@+id/actionbar_lay"
+            android:background="@drawable/profileimg">
+
+            <ImageView
+                android:id="@+id/profile_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_centerInParent="true"
+                android:layout_centerHorizontal="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/defult_user" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/lay_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/profile_img_lay"
+            android:gravity="center"
+            android:visibility="gone"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <com.albassami.logistics.NewUtilsAndPref.CustomText.CustomBoldEditView
+                android:id="@+id/et_firstname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="@string/first_name"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+            <com.albassami.logistics.NewUtilsAndPref.CustomText.CustomBoldEditView
+                android:id="@+id/et_lastname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="@string/lastname"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="300dp"
+            android:layout_marginEnd="5dp"
+            android:background="@drawable/white_with_corner"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:gravity="end"
+                    android:text="@string/last_Name"
+                    android:textColor="#000000" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="23dp"
+                    android:layout_weight="1"
+                    android:gravity="end"
+
+                    android:text="@string/first_name"
+                    android:textColor="#000000" />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="23dp"
+                    android:layout_weight="1"
+
+                    android:gravity="end"
+                    android:text="@string/email"
+                    android:textColor="#000000" />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="23dp"
+                    android:layout_weight="1"
+                    android:gravity="end"
+                    android:text="@string/ID_NO"
+
+                    android:textColor="#000000" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="23dp"
+                    android:layout_weight="1"
+                    android:gravity="end"
+                    android:text="@string/nationallty"
+
+                    android:textColor="#000000" />
+
+                <TextView
+
+                    android:id="@+id/textView56"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_weight="1"
+                    android:gravity="end"
+
+                    android:text="@string/ID_type"
+                    android:textColor="#000000" />
+
+                <TextView
+
+                    android:id="@+id/textView57"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_weight="1"
+                    android:gravity="end"
+
+                    android:text="@string/gender"
+                    android:textColor="#000000" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <com.albassami.logistics.NewUtilsAndPref.CustomText.CustomRegularEditView
+                    android:id="@+id/etFirstName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/white_with_corner"
+                    android:hint="@string/first_name"
+                    android:imeOptions="actionSend|flagNoEnterAction"
+                    android:inputType="textPersonName"
+                    android:padding="10dp"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+                <com.albassami.logistics.NewUtilsAndPref.CustomText.CustomRegularEditView
+                    android:id="@+id/etLastName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/white_with_corner"
+                    android:hint="@string/last_Name"
+                    android:padding="10dp"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+                <com.albassami.logistics.NewUtilsAndPref.CustomText.CustomRegularEditView
+                    android:id="@+id/et_profile_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/white_with_corner"
+                    android:hint="@string/email"
+                    android:inputType="textEmailAddress"
+                    android:padding="10dp"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+                <com.albassami.logistics.NewUtilsAndPref.CustomText.CustomRegularEditView
+                    android:id="@+id/id_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/white_with_corner"
+                    android:hint="@string/idnumber"
+                    android:inputType="textEmailAddress"
+                    android:padding="10dp"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/atvNationality2"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="20dp"
+                    android:background="@drawable/white_with_corner"
+                    android:drawableEnd="@drawable/ic_action_down_arrow"
+                    android:drawableRight="@drawable/ic_action_down_arrow"
+                    android:drawablePadding="10dp"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:gravity="center_vertical"
+                    android:hint="@string/selectnationality"
+                    android:paddingStart="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingEnd="20dp"
+                    android:paddingRight="20dp"
+                    android:textColor="@color/black"
+                    android:textSize="15sp">
+
+                </AutoCompleteTextView>
+
+                <AutoCompleteTextView
+                    android:id="@+id/atvNationality3"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="20dp"
+                    android:background="@drawable/white_with_corner"
+                    android:drawableEnd="@drawable/ic_action_down_arrow"
+                    android:drawableRight="@drawable/ic_action_down_arrow"
+                    android:drawablePadding="10dp"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:gravity="center_vertical"
+                    android:hint="@string/select_id_type"
+                    android:paddingStart="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingEnd="20dp"
+                    android:paddingRight="20dp"
+                    android:textColor="@color/black"
+                    android:textSize="15sp">
+
+                </AutoCompleteTextView>
+
+                <RadioGroup
+                    android:id="@+id/profile_radioGroup"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/id_number"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:buttonTint="@color/circle_color"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/radio_btn_male"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="0.5"
+                        android:buttonTint="@color/circle_color"
+                        android:checked="true"
+                        android:text="@string/txt_male"
+                        android:textSize="14sp" />
+
+                    <RadioButton
+                        android:id="@+id/radio_btn_female"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="5dp"
+                        android:layout_marginRight="5dp"
+                        android:buttonTint="@color/circle_color"
+                        android:text="@string/txt_female"
+                        android:textSize="14sp" />
+
+
+                </RadioGroup>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <com.albassami.logistics.NewUtilsAndPref.CustomText.CustomRegularTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="23dp"
+                android:layout_marginLeft="23dp"
+                android:layout_marginTop="30dp"
+                android:text="@string/update_mobile_number"
+                android:visibility="gone" />
+
+            <com.albassami.logistics.NewUtilsAndPref.CustomText.CustomRegularEditView
+                android:id="@+id/et_profile_mobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/square_editbox"
+                android:hint="@string/phn_no"
+                android:inputType="phone"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:visibility="gone" />
+
+
+            <com.albassami.logistics.NewUtilsAndPref.CustomText.CustomRegularTextView
+                android:id="@+id/updateMobileNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="23dp"
+                android:layout_marginLeft="23dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/click_here_to_update_mobile_number"
+                android:textColor="@color/colorAccent" />
+
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

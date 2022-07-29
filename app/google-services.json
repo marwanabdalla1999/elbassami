@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "478571481126",
+    "project_id": "ivory-studio-291022",
+    "storage_bucket": "ivory-studio-291022.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:478571481126:android:461ec4d2e382408f9abee7",
+        "android_client_info": {
+          "package_name": "com.albassami.logistics.com.albassami.logistics"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "478571481126-4a71tth1bu7o6jn7d5o99cgrdit0use9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBw6q0By_AFbFLLXpZ1uZw20lbZOdKw6SE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "478571481126-4a71tth1bu7o6jn7d5o99cgrdit0use9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

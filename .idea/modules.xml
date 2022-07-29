@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app_customer-main.iml" filepath="$PROJECT_DIR$/.idea/modules/app_customer-main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/FORTSDKv1.7/app_customer-main.FORTSDKv1.7.iml" filepath="$PROJECT_DIR$/.idea/modules/FORTSDKv1.7/app_customer-main.FORTSDKv1.7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/FORTSDKv1.8/app_customer-main.FORTSDKv1.8.iml" filepath="$PROJECT_DIR$/.idea/modules/FORTSDKv1.8/app_customer-main.FORTSDKv1.8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app_customer-main.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app_customer-main.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/reclv_animation/app_customer-main.reclv_animation.iml" filepath="$PROJECT_DIR$/.idea/modules/reclv_animation/app_customer-main.reclv_animation.iml" />
+    </modules>
+  </component>
+</project>

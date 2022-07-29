@@ -1,0 +1,37 @@
+<component name="libraryTable">
+  <library name="Gradle: com.sensorberg.libs:permission-bitte:0.2.2@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/19764b26675399e5109f7c04e2454954/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/19764b26675399e5109f7c04e2454954/res" />
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/477a17d38ebaaf19a0e81c77a94bbe7d/jetified-permission-bitte-0.2.2/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/477a17d38ebaaf19a0e81c77a94bbe7d/jetified-permission-bitte-0.2.2/res" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/477a17d38ebaaf19a0e81c77a94bbe7d/jetified-permission-bitte-0.2.2/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/2d418fcfb6cf55ed27634e6578f58db4/jetified-permission-bitte-0.2.2/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/2d418fcfb6cf55ed27634e6578f58db4/jetified-permission-bitte-0.2.2/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/2d418fcfb6cf55ed27634e6578f58db4/jetified-permission-bitte-0.2.2/res" />
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/477a17d38ebaaf19a0e81c77a94bbe7d/jetified-permission-bitte-0.2.2/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/477a17d38ebaaf19a0e81c77a94bbe7d/jetified-permission-bitte-0.2.2/res" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/477a17d38ebaaf19a0e81c77a94bbe7d/jetified-permission-bitte-0.2.2/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/477a17d38ebaaf19a0e81c77a94bbe7d/jetified-permission-bitte-0.2.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/477a17d38ebaaf19a0e81c77a94bbe7d/jetified-permission-bitte-0.2.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/477a17d38ebaaf19a0e81c77a94bbe7d/jetified-permission-bitte-0.2.2/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0c7cf7cd355e8f112ba8e04f9d0164dd/jetified-permission-bitte-0.2.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0c7cf7cd355e8f112ba8e04f9d0164dd/jetified-permission-bitte-0.2.2/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0c7cf7cd355e8f112ba8e04f9d0164dd/jetified-permission-bitte-0.2.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/24b01962bb494548dc9fb295af5b1255/jetified-permission-bitte-0.2.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/24b01962bb494548dc9fb295af5b1255/jetified-permission-bitte-0.2.2/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/24b01962bb494548dc9fb295af5b1255/jetified-permission-bitte-0.2.2/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../src/flutter/caches/transforms-2/files-2.1/36cbd72be18740fbe0bfe53d3fc3331a/jetified-permission-bitte-0.2.2/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../../../src/flutter/caches/transforms-2/files-2.1/36cbd72be18740fbe0bfe53d3fc3331a/jetified-permission-bitte-0.2.2/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../src/flutter/caches/transforms-2/files-2.1/36cbd72be18740fbe0bfe53d3fc3331a/jetified-permission-bitte-0.2.2/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sensorberg.libs/permission-bitte/0.2.2/39e36e2b0a731d40ab8029b1cd1d0c97fb95efd3/permission-bitte-0.2.2-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../src/flutter/caches/modules-2/files-2.1/com.sensorberg.libs/permission-bitte/0.2.2/39e36e2b0a731d40ab8029b1cd1d0c97fb95efd3/permission-bitte-0.2.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sensorberg.libs/permission-bitte/0.2.2/368d5b747a102dadc84f1bd5c2f6acec52aec424/permission-bitte-0.2.2-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../src/flutter/caches/modules-2/files-2.1/com.sensorberg.libs/permission-bitte/0.2.2/368d5b747a102dadc84f1bd5c2f6acec52aec424/permission-bitte-0.2.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/et_color"
+    android:orientation="vertical">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/ic_action_backward"></ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/payment_method"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"></TextView>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <TextView
+            android:id="@+id/tv_credit_card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:background="@drawable/bottom_line_layout"
+            android:gravity="center_horizontal"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="Credit Card"
+            android:textColor="@color/deep_grey"
+            android:textSize="16dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/tv_visa_card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:gravity="center_horizontal"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="Visa"
+            android:textColor="@color/deep_grey"
+            android:textSize="16dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/tv_apple_pay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:gravity="center_horizontal"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="Apple Pay"
+            android:textColor="@color/deep_grey"
+            android:textSize="16dp"
+            android:textStyle="bold"></TextView>
+    </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/p_card_detail"
+            android:textAllCaps="true"
+            android:textColor="@color/colorAccent"
+            android:textSize="14dp"></TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/payment_et_bg"
+            android:hint="@string/card_number"
+            android:inputType="number"
+            android:paddingLeft="10dp"
+            android:textColor="@color/black"
+            android:paddingStart="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp">
+
+        </EditText>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/payment_et_bg"
+            android:hint="@string/card_name"
+            android:paddingLeft="10dp"
+            android:textColor="@color/black"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:paddingStart="10dp">
+
+        </EditText>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="2"
+            android:orientation="horizontal"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/payment_et_bg"
+                android:hint="@string/expiry_date"
+                android:paddingLeft="10dp"
+                android:textColor="@color/black"
+                android:paddingStart="10dp"
+                android:layout_marginEnd="10dp"></EditText>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/payment_et_bg"
+                android:hint="@string/cvv"
+                android:inputType="number"
+                android:paddingLeft="10dp"
+                android:textColor="@color/black"
+                android:layout_marginStart="10dp"
+                android:paddingStart="10dp">
+
+            </EditText>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="40dp"
+            android:gravity="center_horizontal"
+            android:text="@string/cvv_hint"
+            android:textColor="@color/dark_grey"
+            android:textSize="10dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginStart="40dp">
+
+        </TextView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/deep_grey">
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/save_card"
+                android:layout_centerVertical="true"
+                android:textColor="@color/deep_grey"
+                android:textSize="12dp"></TextView>
+            <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true">
+        <Button
+            android:id="@+id/btnPayNow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:textAllCaps="false"
+            android:background="@drawable/rouded_green"
+            android:paddingLeft="60dp"
+            android:paddingRight="60dp"
+            android:text="@string/pay_now"
+            android:textColor="@color/white"
+            android:paddingStart="60dp"
+            android:paddingEnd="60dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"
+            android:text="@string/secure_payment_gateway"
+            android:textAllCaps="false"
+            android:textColor="@color/colorAccent"
+            android:textSize="10dp">
+
+        </TextView>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,35 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.gms:play-services-measurement-base:16.0.4@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/26b8203e1bdf7456068db1b2920fdfce/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/26b8203e1bdf7456068db1b2920fdfce/res" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/2a2474bfee6acfaa0cc8726d91f02c93/res" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/653e12240a4c210411e11b8b3c997820/jetified-play-services-measurement-base-16.0.4/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/653e12240a4c210411e11b8b3c997820/jetified-play-services-measurement-base-16.0.4/res" />
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/653e12240a4c210411e11b8b3c997820/jetified-play-services-measurement-base-16.0.4/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/70d8b0d5db5497a065ba2fb69bb85d78/jetified-play-services-measurement-base-16.0.4/res" />
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/70d8b0d5db5497a065ba2fb69bb85d78/jetified-play-services-measurement-base-16.0.4/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/70d8b0d5db5497a065ba2fb69bb85d78/jetified-play-services-measurement-base-16.0.4/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/653e12240a4c210411e11b8b3c997820/jetified-play-services-measurement-base-16.0.4/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/653e12240a4c210411e11b8b3c997820/jetified-play-services-measurement-base-16.0.4/res" />
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/653e12240a4c210411e11b8b3c997820/jetified-play-services-measurement-base-16.0.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/653e12240a4c210411e11b8b3c997820/jetified-play-services-measurement-base-16.0.4/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/653e12240a4c210411e11b8b3c997820/jetified-play-services-measurement-base-16.0.4/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/653e12240a4c210411e11b8b3c997820/jetified-play-services-measurement-base-16.0.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d3923759ba6a321caf0b917cc2fb1ace/jetified-play-services-measurement-base-16.0.4/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d3923759ba6a321caf0b917cc2fb1ace/jetified-play-services-measurement-base-16.0.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d3923759ba6a321caf0b917cc2fb1ace/jetified-play-services-measurement-base-16.0.4/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4c79e2a7f59c666fcd9522f651928b46/jetified-play-services-measurement-base-16.0.4/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4c79e2a7f59c666fcd9522f651928b46/jetified-play-services-measurement-base-16.0.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4c79e2a7f59c666fcd9522f651928b46/jetified-play-services-measurement-base-16.0.4/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../../../src/flutter/caches/transforms-2/files-2.1/ee7a1c1d3e73eacd45951f1dabf22f8a/jetified-play-services-measurement-base-16.0.4/res" />
+      <root url="jar://$PROJECT_DIR$/../../../../src/flutter/caches/transforms-2/files-2.1/ee7a1c1d3e73eacd45951f1dabf22f8a/jetified-play-services-measurement-base-16.0.4/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../src/flutter/caches/transforms-2/files-2.1/ee7a1c1d3e73eacd45951f1dabf22f8a/jetified-play-services-measurement-base-16.0.4/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.android.gms/play-services-measurement-base/16.0.4/73a2e465a7105bad4fc553c80674804c082d57c6/play-services-measurement-base-16.0.4-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../src/flutter/caches/modules-2/files-2.1/com.google.android.gms/play-services-measurement-base/16.0.4/73a2e465a7105bad4fc553c80674804c082d57c6/play-services-measurement-base-16.0.4-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

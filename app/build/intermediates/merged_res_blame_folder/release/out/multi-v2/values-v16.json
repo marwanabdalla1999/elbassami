@@ -1,0 +1,76 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\ayman\\Documents\\GitHub\\app_customer\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-v16\\values-v16.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\ayman\\.gradle\\caches\\transforms-2\\files-2.1\\cba310e7299785ba2ea8da6c53f51f50\\jetified-drop-in-2.3.8\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "245"
+                    },
+                    "to": {
+                        "startLines": "11",
+                        "startColumns": "4",
+                        "startOffsets": "478",
+                        "endLines": "14",
+                        "endColumns": "12",
+                        "endOffsets": "668"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\ayman\\.gradle\\caches\\transforms-2\\files-2.1\\217116ffec5ca7a8e531d78d5a554dfe\\core-1.2.0\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\ayman\\.gradle\\caches\\transforms-2\\files-2.1\\a316f5cd934160f8f84563411c86a5ea\\jetified-card-form-2.3.2\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "234"
+                    },
+                    "to": {
+                        "startLines": "7",
+                        "startColumns": "4",
+                        "startOffsets": "294",
+                        "endLines": "10",
+                        "endColumns": "12",
+                        "endOffsets": "473"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\ayman\\.gradle\\caches\\transforms-2\\files-2.1\\c7df135ec550a1f68683093418b84fcf\\appcompat-1.1.0\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "121",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "289"
+                    }
+                }
+            ]
+        }
+    ]
+}

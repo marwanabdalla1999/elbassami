@@ -1,0 +1,1091 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.albassami.logistics"
+4    android:versionCode="29"
+5    android:versionName="1.1.4" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml
+10    <!--
+11         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+12         Google Maps Android API v2, but you must specify either coarse or fine
+13         location permissions for the "MyLocation" functionality.
+14    -->
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:10:5-79
+15-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:10:22-76
+16    <!--
+17         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+18         Google Maps Android API v2, but you must specify either coarse or fine
+19         location permissions for the 'MyLocation' functionality.
+20    -->
+21    <uses-permission android:name="android.permission.CALL_PHONE" />
+21-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:16:5-69
+21-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:16:22-66
+22    <uses-permission android:name="android.permission.CAMERA" />
+22-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:17:5-65
+22-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:17:22-62
+23    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+23-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:18:5-75
+23-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:18:22-72
+24    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+24-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:19:5-71
+24-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:19:22-68
+25    <uses-permission android:name="android.permission.READ_CONTACTS" />
+25-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:20:5-72
+25-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:20:22-69
+26    <uses-permission android:name="android.permission.INTERNET" />
+26-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:21:5-67
+26-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:21:22-64
+27    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+27-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:22:5-79
+27-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:22:22-76
+28    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+28-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:23:5-81
+28-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:23:22-78
+29    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+29-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:24:5-76
+29-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:24:22-73
+30    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+30-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:25:5-81
+30-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:25:22-78
+31    <uses-permission android:name="android.permission.CALL_PHONE" />
+31-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:16:5-69
+31-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:16:22-66
+32    <uses-permission android:name="android.permission.VIBRATE" />
+32-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:27:5-66
+32-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:27:22-63
+33    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+33-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:19:5-71
+33-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:19:22-68
+34    <uses-permission android:name="android.permission.CAMERA" />
+34-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:17:5-65
+34-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:17:22-62
+35    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+35-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:30:5-81
+35-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:30:22-78
+36    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+36-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:31:5-74
+36-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:31:22-71
+37    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+37-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:32:5-98
+37-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:32:22-95
+38    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+38-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:33:5-82
+38-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:33:22-79
+39    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+39-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:18:5-75
+39-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:18:22-72
+40    <uses-permission android:name="android.permission.READ_CONTACTS" />
+40-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:20:5-72
+40-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:20:22-69
+41
+42    <permission
+42-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:37:5-39:47
+43        android:name="android.permission.CALL_PRIVILEGED"
+43-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:38:9-58
+44        android:protectionLevel="signature" />
+44-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:39:9-44
+45
+46    <uses-feature
+46-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:41:5-43:35
+47        android:glEsVersion="0x00020000"
+47-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:42:9-41
+48        android:required="true" />
+48-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:43:9-32
+49
+50    <supports-screens
+50-->[:FORTSDKv1.8] C:\Users\ayman\Documents\GitHub\app_customer\FORTSDKv1.8\build\.transforms\f8a889b140fbee77c02b3e8961a126db\jetified-FORTSDKv1.8\AndroidManifest.xml:14:5-18:39
+51        android:anyDensity="true"
+51-->[:FORTSDKv1.8] C:\Users\ayman\Documents\GitHub\app_customer\FORTSDKv1.8\build\.transforms\f8a889b140fbee77c02b3e8961a126db\jetified-FORTSDKv1.8\AndroidManifest.xml:15:9-34
+52        android:largeScreens="true"
+52-->[:FORTSDKv1.8] C:\Users\ayman\Documents\GitHub\app_customer\FORTSDKv1.8\build\.transforms\f8a889b140fbee77c02b3e8961a126db\jetified-FORTSDKv1.8\AndroidManifest.xml:16:9-36
+53        android:normalScreens="true"
+53-->[:FORTSDKv1.8] C:\Users\ayman\Documents\GitHub\app_customer\FORTSDKv1.8\build\.transforms\f8a889b140fbee77c02b3e8961a126db\jetified-FORTSDKv1.8\AndroidManifest.xml:17:9-37
+54        android:smallScreens="true" /> <!-- Optional permission for Analytics to run. -->
+54-->[:FORTSDKv1.8] C:\Users\ayman\Documents\GitHub\app_customer\FORTSDKv1.8\build\.transforms\f8a889b140fbee77c02b3e8961a126db\jetified-FORTSDKv1.8\AndroidManifest.xml:18:9-36
+55    <uses-permission android:name="android.permission.WAKE_LOCK" />
+55-->[com.google.android.gms:play-services-analytics:17.0.0] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\5f7bfc546beecdbfc91728fe0b1a748d\jetified-play-services-analytics-17.0.0\AndroidManifest.xml:27:5-68
+55-->[com.google.android.gms:play-services-analytics:17.0.0] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\5f7bfc546beecdbfc91728fe0b1a748d\jetified-play-services-analytics-17.0.0\AndroidManifest.xml:27:22-65
+56    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
+56-->[com.google.firebase:firebase-analytics:16.0.5] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\80c22fa3f4a5ec613066cc3ba51a018a\jetified-firebase-analytics-16.0.5\AndroidManifest.xml:26:5-110
+56-->[com.google.firebase:firebase-analytics:16.0.5] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\80c22fa3f4a5ec613066cc3ba51a018a\jetified-firebase-analytics-16.0.5\AndroidManifest.xml:26:22-107
+57    <uses-feature
+57-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\9ba51cea56436f7cf466df69c8cc6205\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:24:5-26:36
+58        android:name="android.hardware.camera"
+58-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\9ba51cea56436f7cf466df69c8cc6205\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:25:9-47
+59        android:required="false" />
+59-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\9ba51cea56436f7cf466df69c8cc6205\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:26:9-33
+60    <uses-feature
+60-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\9ba51cea56436f7cf466df69c8cc6205\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:27:5-29:36
+61        android:name="android.hardware.camera.front"
+61-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\9ba51cea56436f7cf466df69c8cc6205\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:28:9-53
+62        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
+62-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\9ba51cea56436f7cf466df69c8cc6205\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:29:9-33
+63    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
+64    <uses-feature
+64-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\9ba51cea56436f7cf466df69c8cc6205\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:32:5-34:36
+65        android:name="android.hardware.camera.autofocus"
+65-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\9ba51cea56436f7cf466df69c8cc6205\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:33:9-57
+66        android:required="false" />
+66-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\9ba51cea56436f7cf466df69c8cc6205\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:34:9-33
+67    <uses-feature
+67-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\9ba51cea56436f7cf466df69c8cc6205\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:35:5-37:36
+68        android:name="android.hardware.camera.flash"
+68-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\9ba51cea56436f7cf466df69c8cc6205\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:36:9-53
+69        android:required="false" />
+69-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\9ba51cea56436f7cf466df69c8cc6205\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:37:9-33
+70    <uses-feature
+70-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\9ba51cea56436f7cf466df69c8cc6205\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:38:5-40:36
+71        android:name="android.hardware.screen.landscape"
+71-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\9ba51cea56436f7cf466df69c8cc6205\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:39:9-57
+72        android:required="false" />
+72-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\9ba51cea56436f7cf466df69c8cc6205\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:40:9-33
+73    <uses-feature
+73-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\9ba51cea56436f7cf466df69c8cc6205\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:41:5-43:36
+74        android:name="android.hardware.wifi"
+74-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\9ba51cea56436f7cf466df69c8cc6205\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:42:9-45
+75        android:required="false" />
+75-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\9ba51cea56436f7cf466df69c8cc6205\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:43:9-33
+76
+77    <application
+77-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:45:5-304:19
+78        android:name="com.albassami.logistics.AppController"
+78-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:46:9-38
+79        android:allowBackup="true"
+79-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:47:9-35
+80        android:appComponentFactory="androidx"
+80-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:48:9-47
+81        android:autoLink="phone"
+81-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:49:9-33
+82        android:debuggable="true"
+83        android:icon="@mipmap/ic_launcher"
+83-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:50:9-43
+84        android:label="@string/app_name"
+84-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:51:9-41
+85        android:largeHeap="true"
+85-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:52:9-33
+86        android:requestLegacyExternalStorage="true"
+86-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:53:9-52
+87        android:supportsRtl="true"
+87-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:54:9-35
+88        android:theme="@style/NoActionBarTheme"
+88-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:55:9-48
+89        android:usesCleartextTraffic="true" >
+89-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:56:9-44
+90        <activity android:name="com.albassami.logistics.ui.activity.towing_done" />
+90-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:58:9-70
+90-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:58:19-58
+91        <!--
+92             The API key for Google Maps-based APIs is defined as a string resource.
+93             (See the file "res/values/google_maps_api.xml").
+94             Note that the API key is linked to the encryption key used to sign the APK.
+95             You need a different API key for each encryption key, including the release key that is used to
+96             sign the APK for publishing.
+97             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+98        -->
+99        <meta-data
+99-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:67:9-69:71
+100            android:name="com.google.android.geo.API_KEY"
+100-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:68:13-58
+101            android:value="AIzaSyCxzGfmlKSw1NA5lQuLUUVSmc_ae3_5GVY" />
+101-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:69:13-68
+102
+103        <activity
+103-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:71:9-73:69
+104            android:name="com.albassami.logistics.ui.activity.trackingtowing"
+104-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:72:13-55
+105            android:label="@string/title_activity_trackingtowing" />
+105-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:73:13-66
+106        <activity android:name="com.albassami.logistics.ui.activity.detailsform" />
+106-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:74:9-61
+106-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:74:19-58
+107        <activity
+107-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:75:9-77:69
+108            android:name="com.albassami.logistics.ui.activity.select_from_to"
+108-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:76:13-55
+109            android:label="@string/title_activity_select_from_to" />
+109-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:77:13-66
+110        <activity android:name="com.albassami.logistics.ui.activity.agreementactivity" />
+110-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:78:9-67
+110-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:78:19-64
+111        <activity android:name="com.albassami.logistics.ui.activity.tracking" />
+111-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:79:9-58
+111-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:79:19-55
+112        <activity
+112-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:80:9-82:63
+113            android:name="com.albassami.logistics.ui.activity.branches"
+113-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:81:13-49
+114            android:label="@string/title_activity_branches" />
+114-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:82:13-60
+115        <activity android:name="com.albassami.logistics.ui.activity.contactus" />
+115-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:83:9-59
+115-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:83:19-56
+116        <activity android:name="com.albassami.logistics.ui.activity.sign_up1" />
+116-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:84:9-58
+116-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:84:19-55
+117        <activity android:name="com.albassami.logistics.ui.activity.NoInternetActivity" />
+117-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:85:9-68
+117-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:85:19-65
+118        <activity android:name="com.albassami.logistics.ui.activity.ActivityWaitingRequestAccept" />
+118-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:86:9-78
+118-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:86:19-75
+119        <activity android:name="com.albassami.logistics.ui.activity.FavProviderActivity" />
+119-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:87:9-69
+119-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:87:19-66
+120        <activity android:name="com.albassami.logistics.ui.activity.TransactionListActivity" />
+120-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:88:9-73
+120-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:88:19-70
+121        <activity android:name="com.albassami.logistics.ui.activity.RedeemActivity" />
+121-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:89:9-64
+121-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:89:19-61
+122        <activity android:name="com.albassami.logistics.ui.activity.WalletAcivity" />
+122-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:90:9-63
+122-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:90:19-60
+123        <activity android:name="com.albassami.logistics.ui.activity.BaseActivity" />
+123-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:91:9-62
+123-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:91:19-59
+124        <activity android:name="com.albassami.logistics.ui.activity.SocialLoginActivity" />
+124-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:92:9-69
+124-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:92:19-66
+125        <activity android:name="com.albassami.logistics.ui.activity.PaymentMethodActivity" />
+125-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:93:9-71
+125-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:93:19-68
+126        <activity android:name="com.albassami.logistics.ui.activity.ActivityLoginSigupOption" />
+126-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:94:9-74
+126-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:94:19-71
+127        <activity android:name="com.albassami.logistics.ui.activity.Terms_activity" />
+127-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:95:9-64
+127-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:95:19-61
+128
+129        <uses-library
+129-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:97:9-99:40
+130            android:name="org.apache.http.legacy"
+130-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:98:13-50
+131            android:required="false" />
+131-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:99:13-37
+132
+133        <activity
+133-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:101:9-109:20
+134            android:name="com.albassami.logistics.ui.activity.SplashActivity"
+134-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:102:13-55
+135            android:screenOrientation="portrait" >
+135-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:103:13-49
+136            <intent-filter>
+136-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:104:13-108:29
+137                <action android:name="android.intent.action.MAIN" />
+137-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:105:17-69
+137-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:105:25-66
+138
+139                <category android:name="android.intent.category.LAUNCHER" />
+139-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:107:17-77
+139-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:107:27-74
+140            </intent-filter>
+141        </activity>
+142
+143        <meta-data
+143-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:111:9-113:55
+144            android:name="com.facebook.sdk.ApplicationId"
+144-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:112:13-58
+145            android:value="@string/facebook_api_id" />
+145-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:113:13-52
+146
+147        <activity
+147-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:115:9-119:63
+148            android:name="com.albassami.logistics.ui.activity.MainActivity"
+148-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:116:13-53
+149            android:screenOrientation="portrait"
+149-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:117:13-49
+150            android:theme="@style/NoActionBarTheme"
+150-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:118:13-52
+151            android:windowSoftInputMode="stateAlwaysHidden" />
+151-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:119:13-60
+152        <activity
+152-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:120:9-124:63
+153            android:name="com.albassami.logistics.ui.activity.onBordingScreen"
+153-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:121:13-56
+154            android:screenOrientation="portrait"
+154-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:122:13-49
+155            android:theme="@style/NoActionBarTheme"
+155-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:123:13-52
+156            android:windowSoftInputMode="stateAlwaysHidden" />
+156-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:124:13-60
+157        <activity
+157-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:125:9-129:63
+158            android:name="com.albassami.logistics.ui.activity.AddVehiclesActivity"
+158-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:126:13-60
+159            android:screenOrientation="portrait"
+159-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:127:13-49
+160            android:theme="@style/NoActionBarTheme"
+160-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:128:13-52
+161            android:windowSoftInputMode="stateAlwaysHidden" />
+161-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:129:13-60
+162        <activity
+162-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:130:9-134:67
+163            android:name="com.albassami.logistics.ui.activity.ChangePasswordActivity"
+163-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:131:13-63
+164            android:screenOrientation="portrait"
+164-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:132:13-49
+165            android:theme="@style/NoActionBarTheme"
+165-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:133:13-52
+166            android:windowSoftInputMode="stateHidden|adjustPan" />
+166-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:134:13-64
+167        <activity
+167-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:135:9-139:57
+168            android:name="com.albassami.logistics.ui.activity.GetStartedActivity"
+168-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:136:13-59
+169            android:screenOrientation="portrait"
+169-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:137:13-49
+170            android:theme="@style/NoActionBarTheme"
+170-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:138:13-52
+171            android:windowSoftInputMode="stateHidden" />
+171-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:139:13-54
+172        <activity
+172-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:140:9-144:57
+173            android:name="com.albassami.logistics.ui.activity.SignInActivity"
+173-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:141:13-55
+174            android:screenOrientation="portrait"
+174-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:142:13-49
+175            android:theme="@style/NoActionBarTheme"
+175-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:143:13-52
+176            android:windowSoftInputMode="stateHidden" />
+176-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:144:13-54
+177        <activity
+177-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:145:9-149:57
+178            android:name="com.albassami.logistics.ui.activity.ChatActivity"
+178-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:146:13-53
+179            android:screenOrientation="portrait"
+179-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:147:13-49
+180            android:theme="@style/NoActionBarTheme"
+180-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:148:13-52
+181            android:windowSoftInputMode="stateHidden" />
+181-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:149:13-54
+182        <activity
+182-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:150:9-154:57
+183            android:name="com.albassami.logistics.ui.activity.SelectLocationActivity1"
+183-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:151:13-64
+184            android:screenOrientation="portrait"
+184-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:152:13-49
+185            android:theme="@style/NoActionBarTheme"
+185-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:153:13-52
+186            android:windowSoftInputMode="stateHidden" />
+186-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:154:13-54
+187        <activity
+187-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:155:9-159:57
+188            android:name="com.albassami.logistics.ui.activity.ThankYouActivity"
+188-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:156:13-57
+189            android:screenOrientation="portrait"
+189-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:157:13-49
+190            android:theme="@style/NoActionBarTheme"
+190-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:158:13-52
+191            android:windowSoftInputMode="stateHidden" />
+191-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:159:13-54
+192        <activity
+192-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:160:9-164:57
+193            android:name="com.albassami.logistics.ui.activity.ProfileActivity"
+193-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:161:13-56
+194            android:screenOrientation="portrait"
+194-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:162:13-49
+195            android:theme="@style/NoActionBarTheme"
+195-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:163:13-52
+196            android:windowSoftInputMode="stateHidden" />
+196-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:164:13-54
+197        <activity
+197-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:165:9-169:57
+198            android:name="com.albassami.logistics.ui.activity.HistoryActivity"
+198-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:166:13-56
+199            android:screenOrientation="portrait"
+199-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:167:13-49
+200            android:theme="@style/NoActionBarTheme"
+200-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:168:13-52
+201            android:windowSoftInputMode="stateHidden" />
+201-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:169:13-54
+202        <activity
+202-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:170:9-174:57
+203            android:name="com.albassami.logistics.ui.activity.AskBotActivity"
+203-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:171:13-55
+204            android:screenOrientation="portrait"
+204-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:172:13-49
+205            android:theme="@style/NoActionBarTheme"
+205-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:173:13-52
+206            android:windowSoftInputMode="stateHidden" />
+206-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:174:13-54
+207        <activity
+207-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:175:9-179:57
+208            android:name="com.albassami.logistics.ui.activity.HelpwebActivity"
+208-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:176:13-56
+209            android:screenOrientation="portrait"
+209-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:177:13-49
+210            android:theme="@style/NoActionBarTheme"
+210-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:178:13-52
+211            android:windowSoftInputMode="stateHidden" />
+211-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:179:13-54
+212        <activity
+212-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:180:9-184:57
+213            android:name="com.albassami.logistics.ui.activity.LaterRequestsActivity"
+213-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:181:13-62
+214            android:screenOrientation="portrait"
+214-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:182:13-49
+215            android:theme="@style/NoActionBarTheme"
+215-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:183:13-52
+216            android:windowSoftInputMode="stateHidden" />
+216-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:184:13-54
+217        <activity
+217-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:185:9-189:57
+218            android:name="com.albassami.logistics.ui.activity.NikolaWalletActivity"
+218-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:186:13-61
+219            android:screenOrientation="portrait"
+219-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:187:13-49
+220            android:theme="@style/NoActionBarTheme"
+220-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:188:13-52
+221            android:windowSoftInputMode="stateHidden" />
+221-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:189:13-54
+222        <activity
+222-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:190:9-194:57
+223            android:name="com.albassami.logistics.ui.activity.PayGateWeb"
+223-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:191:13-51
+224            android:screenOrientation="portrait"
+224-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:192:13-49
+225            android:theme="@style/NoActionBarTheme"
+225-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:193:13-52
+226            android:windowSoftInputMode="stateHidden" />
+226-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:194:13-54
+227        <activity
+227-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:195:9-199:57
+228            android:name="com.albassami.logistics.ui.activity.PaymentsActivity"
+228-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:196:13-57
+229            android:screenOrientation="portrait"
+229-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:197:13-49
+230            android:theme="@style/NoActionBarTheme"
+230-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:198:13-52
+231            android:windowSoftInputMode="stateHidden" />
+231-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:199:13-54
+232        <activity
+232-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:200:9-204:57
+233            android:name="com.albassami.logistics.ui.activity.OtpActivity"
+233-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:201:13-52
+234            android:screenOrientation="portrait"
+234-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:202:13-49
+235            android:theme="@style/NoActionBarTheme"
+235-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:203:13-52
+236            android:windowSoftInputMode="stateHidden" />
+236-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:204:13-54
+237        <activity
+237-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:205:9-209:57
+238            android:name="com.albassami.logistics.ui.activity.SignUpNextActivity"
+238-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:206:13-59
+239            android:screenOrientation="portrait"
+239-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:207:13-49
+240            android:theme="@style/NoActionBarTheme"
+240-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:208:13-52
+241            android:windowSoftInputMode="stateHidden" />
+241-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:209:13-54
+242        <activity
+242-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:210:9-214:57
+243            android:name="com.albassami.logistics.ui.Fragment.SignupFragment"
+243-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:211:13-55
+244            android:screenOrientation="portrait"
+244-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:212:13-49
+245            android:theme="@style/NoActionBarTheme"
+245-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:213:13-52
+246            android:windowSoftInputMode="stateHidden" />
+246-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:214:13-54
+247        <activity
+247-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:215:9-219:57
+248            android:name="com.albassami.logistics.ui.activity.OrderSummaryActivity1"
+248-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:216:13-62
+249            android:screenOrientation="portrait"
+249-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:217:13-49
+250            android:theme="@style/NoActionBarTheme"
+250-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:218:13-52
+251            android:windowSoftInputMode="stateHidden" />
+251-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:219:13-54
+252        <activity
+252-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:220:9-225:45
+253            android:name="com.albassami.logistics.ui.Fragment.ForgotpassFragment"
+253-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:221:13-59
+254            android:screenOrientation="portrait"
+254-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:222:13-49
+255            android:theme="@style/NoActionBarTheme"
+255-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:223:13-52
+256            android:windowSoftInputMode="stateHidden" />
+256-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:224:13-54
+257        <activity
+257-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:226:9-231:45
+258            android:name="com.facebook.FacebookActivity"
+258-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:227:13-57
+259            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+259-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:228:13-96
+260            android:label="@string/app_name"
+260-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:229:13-45
+261            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+261-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:230:13-72
+262        <activity android:name="com.soundcloud.android.crop.CropImageActivity" />
+262-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:232:9-82
+262-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:232:19-79
+263        <activity
+263-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:233:9-244:20
+264            android:name="com.braintreepayments.api.BraintreeBrowserSwitchActivity"
+264-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:234:13-84
+265            android:launchMode="singleTask" >
+265-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:235:13-44
+266            <intent-filter>
+266-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:236:13-243:29
+267                <action android:name="android.intent.action.VIEW" />
+267-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:237:17-69
+267-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:237:25-66
+268
+269                <category android:name="android.intent.category.DEFAULT" />
+269-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:239:17-76
+269-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:239:27-73
+270                <category android:name="android.intent.category.BROWSABLE" />
+270-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:240:17-78
+270-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:240:27-75
+271
+272                <data android:scheme="com.albassami.logistics.braintree" />
+272-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:242:23-66
+273            </intent-filter>
+274        </activity>
+275
+276        <service
+276-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:246:9-248:40
+277            android:name="com.paypal.android.sdk.payments.PayPalService"
+277-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:247:13-73
+278            android:exported="false" /> <!-- Required to use PayPal -->
+278-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:248:13-37
+279        <activity android:name="com.paypal.android.sdk.payments.PayPalProfileSharingActivity" />
+279-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:249:9-97
+279-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:249:19-94
+280        <activity android:name="com.paypal.android.sdk.payments.ProfileSharingConsentActivity" />
+280-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:250:9-98
+280-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:250:19-95
+281        <activity android:name="com.paypal.android.sdk.payments.FuturePaymentInfoActivity" />
+281-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:251:9-94
+281-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:251:19-91
+282        <activity
+282-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:252:9-254:52
+283            android:name="com.paypal.android.sdk.payments.LoginActivity"
+283-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:253:13-73
+284            android:screenOrientation="portrait" />
+284-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:254:13-49
+285        <activity
+285-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:255:9-257:52
+286            android:name="com.albassami.logistics.ui.activity.OrderSummaryActivity"
+286-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:256:13-61
+287            android:screenOrientation="portrait" />
+287-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:257:13-49
+288        <activity
+288-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:258:9-260:52
+289            android:name="com.albassami.logistics.ui.activity.RideLaterActivity"
+289-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:259:13-58
+290            android:screenOrientation="portrait" />
+290-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:260:13-49
+291        <activity
+291-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:261:9-263:52
+292            android:name="com.albassami.logistics.ui.activity.ScheduleActivity"
+292-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:262:13-57
+293            android:screenOrientation="portrait" />
+293-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:263:13-49
+294        <activity
+294-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:264:9-267:52
+295            android:name="com.albassami.logistics.ui.activity.SelectLocationActivity"
+295-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:265:13-63
+296            android:noHistory="true"
+296-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:266:13-37
+297            android:screenOrientation="portrait" />
+297-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:267:13-49
+298
+299        <receiver android:name="com.albassami.logistics.fcm.OnBroadcastReceiver" >
+299-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:269:9-278:20
+299-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:269:19-58
+300            <intent-filter>
+300-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:270:13-277:29
+301                <action android:name="android.intent.action.BOOT_COMPLETED" />
+301-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:271:17-79
+301-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:271:25-76
+302                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+302-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:272:17-79
+302-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:272:25-76
+303                <action android:name="android.net.wifi.WIFI_STATE_CHANGED" />
+303-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:273:17-78
+303-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:273:25-75
+304                <action android:name="android.net.wifi.STATE_CHANGE" />
+304-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:274:17-72
+304-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:274:25-69
+305
+306                <category android:name="android.intent.category.HOME" />
+306-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:276:17-73
+306-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:276:27-70
+307            </intent-filter>
+308        </receiver>
+309
+310        <service android:name="com.albassami.logistics.fcm.InstanceIdServices" >
+310-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:280:9-284:19
+310-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:280:18-56
+311            <intent-filter>
+311-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:281:13-283:29
+312                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+312-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:282:17-80
+312-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:282:25-77
+313            </intent-filter>
+314        </service>
+315        <service
+315-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:285:9-294:19
+316            android:name="com.albassami.logistics.fcm.FCMIntentService"
+316-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:286:13-49
+317            android:exported="false" >
+317-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:287:13-37
+318            <intent-filter>
+318-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:288:13-293:29
+319                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+319-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:289:17-78
+319-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:289:25-75
+320                <action android:name="android.intent.action.BOOT_COMPLETED" />
+320-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:271:17-79
+320-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:271:25-76
+321
+322                <category android:name="android.intent.category.DEFAULT" />
+322-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:239:17-76
+322-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:239:27-73
+323            </intent-filter>
+324        </service>
+325        <service
+325-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:295:9-297:40
+326            android:name="com.albassami.logistics.Service.LocationService"
+326-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:296:13-52
+327            android:exported="false" />
+327-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:297:13-37
+328
+329        <activity android:name="com.albassami.logistics.ui.activity.SavedPlacesActivity" />
+329-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:299:9-69
+329-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:299:19-66
+330
+331        <meta-data
+331-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:301:9-303:72
+332            android:name="io.fabric.ApiKey"
+332-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:302:13-44
+333            android:value="876c920c3456dc3d5ee98fdfea13603b604d6126" />
+333-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:303:13-69
+334
+335        <activity
+335-->[:FORTSDKv1.8] C:\Users\ayman\Documents\GitHub\app_customer\FORTSDKv1.8\build\.transforms\f8a889b140fbee77c02b3e8961a126db\jetified-FORTSDKv1.8\AndroidManifest.xml:21:9-24:56
+336            android:name="com.payfort.fort.android.sdk.activities.InitSecureConnectionActivity"
+336-->[:FORTSDKv1.8] C:\Users\ayman\Documents\GitHub\app_customer\FORTSDKv1.8\build\.transforms\f8a889b140fbee77c02b3e8961a126db\jetified-FORTSDKv1.8\AndroidManifest.xml:22:13-96
+337            android:configChanges="locale|orientation|screenSize"
+337-->[:FORTSDKv1.8] C:\Users\ayman\Documents\GitHub\app_customer\FORTSDKv1.8\build\.transforms\f8a889b140fbee77c02b3e8961a126db\jetified-FORTSDKv1.8\AndroidManifest.xml:23:13-66
+338            android:theme="@style/Theme.Transparent" />
+338-->[:FORTSDKv1.8] C:\Users\ayman\Documents\GitHub\app_customer\FORTSDKv1.8\build\.transforms\f8a889b140fbee77c02b3e8961a126db\jetified-FORTSDKv1.8\AndroidManifest.xml:24:13-53
+339        <activity
+339-->[:FORTSDKv1.8] C:\Users\ayman\Documents\GitHub\app_customer\FORTSDKv1.8\build\.transforms\f8a889b140fbee77c02b3e8961a126db\jetified-FORTSDKv1.8\AndroidManifest.xml:25:9-29:72
+340            android:name="com.payfort.fort.android.sdk.activities.CreditCardPaymentActivity"
+340-->[:FORTSDKv1.8] C:\Users\ayman\Documents\GitHub\app_customer\FORTSDKv1.8\build\.transforms\f8a889b140fbee77c02b3e8961a126db\jetified-FORTSDKv1.8\AndroidManifest.xml:26:13-93
+341            android:configChanges="locale"
+341-->[:FORTSDKv1.8] C:\Users\ayman\Documents\GitHub\app_customer\FORTSDKv1.8\build\.transforms\f8a889b140fbee77c02b3e8961a126db\jetified-FORTSDKv1.8\AndroidManifest.xml:27:13-43
+342            android:screenOrientation="portrait"
+342-->[:FORTSDKv1.8] C:\Users\ayman\Documents\GitHub\app_customer\FORTSDKv1.8\build\.transforms\f8a889b140fbee77c02b3e8961a126db\jetified-FORTSDKv1.8\AndroidManifest.xml:28:13-49
+343            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+343-->[:FORTSDKv1.8] C:\Users\ayman\Documents\GitHub\app_customer\FORTSDKv1.8\build\.transforms\f8a889b140fbee77c02b3e8961a126db\jetified-FORTSDKv1.8\AndroidManifest.xml:29:13-69
+344        <activity
+344-->[:FORTSDKv1.8] C:\Users\ayman\Documents\GitHub\app_customer\FORTSDKv1.8\build\.transforms\f8a889b140fbee77c02b3e8961a126db\jetified-FORTSDKv1.8\AndroidManifest.xml:30:9-34:72
+345            android:name="com.payfort.fort.android.sdk.activities.CreditCardResponseActivity"
+345-->[:FORTSDKv1.8] C:\Users\ayman\Documents\GitHub\app_customer\FORTSDKv1.8\build\.transforms\f8a889b140fbee77c02b3e8961a126db\jetified-FORTSDKv1.8\AndroidManifest.xml:31:13-94
+346            android:configChanges="locale"
+346-->[:FORTSDKv1.8] C:\Users\ayman\Documents\GitHub\app_customer\FORTSDKv1.8\build\.transforms\f8a889b140fbee77c02b3e8961a126db\jetified-FORTSDKv1.8\AndroidManifest.xml:32:13-43
+347            android:screenOrientation="portrait"
+347-->[:FORTSDKv1.8] C:\Users\ayman\Documents\GitHub\app_customer\FORTSDKv1.8\build\.transforms\f8a889b140fbee77c02b3e8961a126db\jetified-FORTSDKv1.8\AndroidManifest.xml:33:13-49
+348            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+348-->[:FORTSDKv1.8] C:\Users\ayman\Documents\GitHub\app_customer\FORTSDKv1.8\build\.transforms\f8a889b140fbee77c02b3e8961a126db\jetified-FORTSDKv1.8\AndroidManifest.xml:34:13-69
+349        <activity
+349-->[com.stripe:stripe-android:5.0.0] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\8b4cb5925f86f4455a61926962b20f14\jetified-stripe-android-5.0.0\AndroidManifest.xml:12:9-16:20
+350            android:name="com.stripe.android.view.AddSourceActivity"
+350-->[com.stripe:stripe-android:5.0.0] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\8b4cb5925f86f4455a61926962b20f14\jetified-stripe-android-5.0.0\AndroidManifest.xml:13:13-69
+351            android:theme="@style/StripeDefaultTheme"
+351-->[com.stripe:stripe-android:5.0.0] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\8b4cb5925f86f4455a61926962b20f14\jetified-stripe-android-5.0.0\AndroidManifest.xml:14:13-54
+352            android:windowSoftInputMode="stateVisible" >
+352-->[com.stripe:stripe-android:5.0.0] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\8b4cb5925f86f4455a61926962b20f14\jetified-stripe-android-5.0.0\AndroidManifest.xml:15:13-55
+353        </activity>
+354        <activity
+354-->[com.stripe:stripe-android:5.0.0] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\8b4cb5925f86f4455a61926962b20f14\jetified-stripe-android-5.0.0\AndroidManifest.xml:17:9-20:20
+355            android:name="com.stripe.android.view.PaymentMethodsActivity"
+355-->[com.stripe:stripe-android:5.0.0] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\8b4cb5925f86f4455a61926962b20f14\jetified-stripe-android-5.0.0\AndroidManifest.xml:18:13-74
+356            android:theme="@style/StripeDefaultTheme" >
+356-->[com.stripe:stripe-android:5.0.0] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\8b4cb5925f86f4455a61926962b20f14\jetified-stripe-android-5.0.0\AndroidManifest.xml:19:13-54
+357        </activity>
+358        <activity
+358-->[com.google.android.libraries.places:places:2.4.0] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\ad0cc188010550c39e348f4703764ec4\jetified-places-2.4.0\AndroidManifest.xml:14:9-20:20
+359            android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
+359-->[com.google.android.libraries.places:places:2.4.0] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\ad0cc188010550c39e348f4703764ec4\jetified-places-2.4.0\AndroidManifest.xml:15:13-91
+360            android:exported="false"
+360-->[com.google.android.libraries.places:places:2.4.0] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\ad0cc188010550c39e348f4703764ec4\jetified-places-2.4.0\AndroidManifest.xml:16:13-37
+361            android:label="@string/places_autocomplete_label"
+361-->[com.google.android.libraries.places:places:2.4.0] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\ad0cc188010550c39e348f4703764ec4\jetified-places-2.4.0\AndroidManifest.xml:17:13-62
+362            android:theme="@style/PlacesAutocompleteOverlay"
+362-->[com.google.android.libraries.places:places:2.4.0] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\ad0cc188010550c39e348f4703764ec4\jetified-places-2.4.0\AndroidManifest.xml:18:13-61
+363            android:windowSoftInputMode="adjustResize" >
+363-->[com.google.android.libraries.places:places:2.4.0] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\ad0cc188010550c39e348f4703764ec4\jetified-places-2.4.0\AndroidManifest.xml:19:13-55
+364        </activity>
+365        <activity
+365-->[com.facebook.android:facebook-android-sdk:4.16.1] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\a3fe65a15c1e8f3264cd99c813d762ae\jetified-facebook-android-sdk-4.16.1\AndroidManifest.xml:33:9-36:20
+366            android:name="com.facebook.CustomTabActivity"
+366-->[com.facebook.android:facebook-android-sdk:4.16.1] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\a3fe65a15c1e8f3264cd99c813d762ae\jetified-facebook-android-sdk-4.16.1\AndroidManifest.xml:34:13-58
+367            android:exported="true" >
+367-->[com.facebook.android:facebook-android-sdk:4.16.1] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\a3fe65a15c1e8f3264cd99c813d762ae\jetified-facebook-android-sdk-4.16.1\AndroidManifest.xml:35:13-36
+368        </activity>
+369        <activity android:name="com.facebook.CustomTabMainActivity" />
+369-->[com.facebook.android:facebook-android-sdk:4.16.1] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\a3fe65a15c1e8f3264cd99c813d762ae\jetified-facebook-android-sdk-4.16.1\AndroidManifest.xml:37:9-71
+369-->[com.facebook.android:facebook-android-sdk:4.16.1] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\a3fe65a15c1e8f3264cd99c813d762ae\jetified-facebook-android-sdk-4.16.1\AndroidManifest.xml:37:19-68
+370        <activity
+370-->[pub.devrel:easypermissions:2.0.0] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\47b595dcb054883f18f0ece12d5d4127\jetified-easypermissions-2.0.0\AndroidManifest.xml:12:9-16:66
+371            android:name="pub.devrel.easypermissions.AppSettingsDialogHolderActivity"
+371-->[pub.devrel:easypermissions:2.0.0] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\47b595dcb054883f18f0ece12d5d4127\jetified-easypermissions-2.0.0\AndroidManifest.xml:13:13-86
+372            android:exported="false"
+372-->[pub.devrel:easypermissions:2.0.0] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\47b595dcb054883f18f0ece12d5d4127\jetified-easypermissions-2.0.0\AndroidManifest.xml:14:13-37
+373            android:label=""
+373-->[pub.devrel:easypermissions:2.0.0] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\47b595dcb054883f18f0ece12d5d4127\jetified-easypermissions-2.0.0\AndroidManifest.xml:15:13-29
+374            android:theme="@style/EasyPermissions.Transparent" />
+374-->[pub.devrel:easypermissions:2.0.0] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\47b595dcb054883f18f0ece12d5d4127\jetified-easypermissions-2.0.0\AndroidManifest.xml:16:13-63
+375        <activity
+375-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\680048a135405cdd31a42d0515ff442c\jetified-play-services-auth-16.0.1\AndroidManifest.xml:23:9-27:75
+376            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+376-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\680048a135405cdd31a42d0515ff442c\jetified-play-services-auth-16.0.1\AndroidManifest.xml:24:13-93
+377            android:excludeFromRecents="true"
+377-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\680048a135405cdd31a42d0515ff442c\jetified-play-services-auth-16.0.1\AndroidManifest.xml:25:13-46
+378            android:exported="false"
+378-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\680048a135405cdd31a42d0515ff442c\jetified-play-services-auth-16.0.1\AndroidManifest.xml:26:13-37
+379            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+379-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\680048a135405cdd31a42d0515ff442c\jetified-play-services-auth-16.0.1\AndroidManifest.xml:27:13-72
+380        <!--
+381            Service handling Google Sign-In user revocation. For apps that do not integrate with
+382            Google Sign-In, this service will never be started.
+383        -->
+384        <service
+384-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\680048a135405cdd31a42d0515ff442c\jetified-play-services-auth-16.0.1\AndroidManifest.xml:33:9-36:110
+385            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+385-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\680048a135405cdd31a42d0515ff442c\jetified-play-services-auth-16.0.1\AndroidManifest.xml:34:13-89
+386            android:exported="true"
+386-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\680048a135405cdd31a42d0515ff442c\jetified-play-services-auth-16.0.1\AndroidManifest.xml:35:13-36
+387            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+387-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\680048a135405cdd31a42d0515ff442c\jetified-play-services-auth-16.0.1\AndroidManifest.xml:36:13-107
+388
+389        <receiver
+389-->[com.google.android.gms:play-services-analytics:17.0.0] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\5f7bfc546beecdbfc91728fe0b1a748d\jetified-play-services-analytics-17.0.0\AndroidManifest.xml:30:9-34:20
+390            android:name="com.google.android.gms.analytics.AnalyticsReceiver"
+390-->[com.google.android.gms:play-services-analytics:17.0.0] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\5f7bfc546beecdbfc91728fe0b1a748d\jetified-play-services-analytics-17.0.0\AndroidManifest.xml:31:13-78
+391            android:enabled="true"
+391-->[com.google.android.gms:play-services-analytics:17.0.0] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\5f7bfc546beecdbfc91728fe0b1a748d\jetified-play-services-analytics-17.0.0\AndroidManifest.xml:32:13-35
+392            android:exported="false" >
+392-->[com.google.android.gms:play-services-analytics:17.0.0] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\5f7bfc546beecdbfc91728fe0b1a748d\jetified-play-services-analytics-17.0.0\AndroidManifest.xml:33:13-37
+393        </receiver>
+394
+395        <service
+395-->[com.google.android.gms:play-services-analytics:17.0.0] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\5f7bfc546beecdbfc91728fe0b1a748d\jetified-play-services-analytics-17.0.0\AndroidManifest.xml:36:9-39:40
+396            android:name="com.google.android.gms.analytics.AnalyticsService"
+396-->[com.google.android.gms:play-services-analytics:17.0.0] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\5f7bfc546beecdbfc91728fe0b1a748d\jetified-play-services-analytics-17.0.0\AndroidManifest.xml:37:13-77
+397            android:enabled="true"
+397-->[com.google.android.gms:play-services-analytics:17.0.0] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\5f7bfc546beecdbfc91728fe0b1a748d\jetified-play-services-analytics-17.0.0\AndroidManifest.xml:38:13-35
+398            android:exported="false" />
+398-->[com.google.android.gms:play-services-analytics:17.0.0] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\5f7bfc546beecdbfc91728fe0b1a748d\jetified-play-services-analytics-17.0.0\AndroidManifest.xml:39:13-37
+399        <service
+399-->[com.google.android.gms:play-services-analytics:17.0.0] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\5f7bfc546beecdbfc91728fe0b1a748d\jetified-play-services-analytics-17.0.0\AndroidManifest.xml:40:9-44:72
+400            android:name="com.google.android.gms.analytics.AnalyticsJobService"
+400-->[com.google.android.gms:play-services-analytics:17.0.0] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\5f7bfc546beecdbfc91728fe0b1a748d\jetified-play-services-analytics-17.0.0\AndroidManifest.xml:41:13-80
+401            android:enabled="true"
+401-->[com.google.android.gms:play-services-analytics:17.0.0] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\5f7bfc546beecdbfc91728fe0b1a748d\jetified-play-services-analytics-17.0.0\AndroidManifest.xml:42:13-35
+402            android:exported="false"
+402-->[com.google.android.gms:play-services-analytics:17.0.0] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\5f7bfc546beecdbfc91728fe0b1a748d\jetified-play-services-analytics-17.0.0\AndroidManifest.xml:43:13-37
+403            android:permission="android.permission.BIND_JOB_SERVICE" />
+403-->[com.google.android.gms:play-services-analytics:17.0.0] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\5f7bfc546beecdbfc91728fe0b1a748d\jetified-play-services-analytics-17.0.0\AndroidManifest.xml:44:13-69
+404        <!--
+405             FirebaseMessagingService performs security checks at runtime,
+406             but set to not exported to explicitly avoid allowing another app to call it.
+407        -->
+408        <service
+408-->[com.google.firebase:firebase-messaging:20.1.2] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\69c7969cb086336467283578025ec82f\jetified-firebase-messaging-20.1.2\AndroidManifest.xml:28:9-34:19
+409            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+409-->[com.google.firebase:firebase-messaging:20.1.2] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\69c7969cb086336467283578025ec82f\jetified-firebase-messaging-20.1.2\AndroidManifest.xml:29:13-82
+410            android:exported="false" >
+410-->[com.google.firebase:firebase-messaging:20.1.2] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\69c7969cb086336467283578025ec82f\jetified-firebase-messaging-20.1.2\AndroidManifest.xml:30:13-37
+411            <intent-filter android:priority="-500" >
+411-->[com.google.firebase:firebase-messaging:20.1.2] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\69c7969cb086336467283578025ec82f\jetified-firebase-messaging-20.1.2\AndroidManifest.xml:31:13-33:29
+411-->[com.google.firebase:firebase-messaging:20.1.2] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\69c7969cb086336467283578025ec82f\jetified-firebase-messaging-20.1.2\AndroidManifest.xml:31:28-51
+412                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+412-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:289:17-78
+412-->C:\Users\ayman\Documents\GitHub\app_customer\app\src\main\AndroidManifest.xml:289:25-75
+413            </intent-filter>
+414        </service>
+415        <service
+415-->[com.google.firebase:firebase-messaging:20.1.2] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\69c7969cb086336467283578025ec82f\jetified-firebase-messaging-20.1.2\AndroidManifest.xml:35:9-41:19
+416            android:name="com.google.firebase.components.ComponentDiscoveryService"
+416-->[com.google.firebase:firebase-messaging:20.1.2] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\69c7969cb086336467283578025ec82f\jetified-firebase-messaging-20.1.2\AndroidManifest.xml:36:13-84
+417            android:directBootAware="true"
+417-->[com.google.firebase:firebase-common:19.3.0] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\1d98478fcfc711d7b868742d30b12593\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+418            android:exported="false" >
+418-->[com.google.firebase:firebase-messaging:20.1.2] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\69c7969cb086336467283578025ec82f\jetified-firebase-messaging-20.1.2\AndroidManifest.xml:37:13-37
+419            <meta-data
+419-->[com.google.firebase:firebase-messaging:20.1.2] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\69c7969cb086336467283578025ec82f\jetified-firebase-messaging-20.1.2\AndroidManifest.xml:38:13-40:85
+420                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+420-->[com.google.firebase:firebase-messaging:20.1.2] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\69c7969cb086336467283578025ec82f\jetified-firebase-messaging-20.1.2\AndroidManifest.xml:39:17-119
+421                android:value="com.google.firebase.components.ComponentRegistrar" />
+421-->[com.google.firebase:firebase-messaging:20.1.2] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\69c7969cb086336467283578025ec82f\jetified-firebase-messaging-20.1.2\AndroidManifest.xml:40:17-82
+422            <meta-data
+422-->[com.google.firebase:firebase-measurement-connector-impl:17.0.3] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\e34e539f332965601726f549ccc19f91\jetified-firebase-measurement-connector-impl-17.0.3\AndroidManifest.xml:28:13-30:85
+423                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+423-->[com.google.firebase:firebase-measurement-connector-impl:17.0.3] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\e34e539f332965601726f549ccc19f91\jetified-firebase-measurement-connector-impl-17.0.3\AndroidManifest.xml:29:17-139
+424                android:value="com.google.firebase.components.ComponentRegistrar" />
+424-->[com.google.firebase:firebase-measurement-connector-impl:17.0.3] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\e34e539f332965601726f549ccc19f91\jetified-firebase-measurement-connector-impl-17.0.3\AndroidManifest.xml:30:17-82
+425            <meta-data
+425-->[com.google.firebase:firebase-iid:20.1.1] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\9e776637e9c57ea02cd0ffdbf600ccae\jetified-firebase-iid-20.1.1\AndroidManifest.xml:32:13-34:85
+426                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+426-->[com.google.firebase:firebase-iid:20.1.1] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\9e776637e9c57ea02cd0ffdbf600ccae\jetified-firebase-iid-20.1.1\AndroidManifest.xml:33:17-96
+427                android:value="com.google.firebase.components.ComponentRegistrar" />
+427-->[com.google.firebase:firebase-iid:20.1.1] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\9e776637e9c57ea02cd0ffdbf600ccae\jetified-firebase-iid-20.1.1\AndroidManifest.xml:34:17-82
+428            <meta-data
+428-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\0fc1f964e9726a69fed6e5a6b58a6e4f\jetified-firebase-datatransport-17.0.3\AndroidManifest.xml:28:13-30:85
+429                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+429-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\0fc1f964e9726a69fed6e5a6b58a6e4f\jetified-firebase-datatransport-17.0.3\AndroidManifest.xml:29:17-115
+430                android:value="com.google.firebase.components.ComponentRegistrar" />
+430-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\0fc1f964e9726a69fed6e5a6b58a6e4f\jetified-firebase-datatransport-17.0.3\AndroidManifest.xml:30:17-82
+431            <meta-data
+431-->[com.google.firebase:firebase-installations:16.0.0] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\a264b37f3120069ac422d057e48c14fe\jetified-firebase-installations-16.0.0\AndroidManifest.xml:17:13-19:85
+432                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+432-->[com.google.firebase:firebase-installations:16.0.0] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\a264b37f3120069ac422d057e48c14fe\jetified-firebase-installations-16.0.0\AndroidManifest.xml:18:17-127
+433                android:value="com.google.firebase.components.ComponentRegistrar" />
+433-->[com.google.firebase:firebase-installations:16.0.0] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\a264b37f3120069ac422d057e48c14fe\jetified-firebase-installations-16.0.0\AndroidManifest.xml:19:17-82
+434        </service>
+435
+436        <receiver
+436-->[com.google.firebase:firebase-analytics:16.0.5] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\80c22fa3f4a5ec613066cc3ba51a018a\jetified-firebase-analytics-16.0.5\AndroidManifest.xml:29:9-33:20
+437            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+437-->[com.google.firebase:firebase-analytics:16.0.5] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\80c22fa3f4a5ec613066cc3ba51a018a\jetified-firebase-analytics-16.0.5\AndroidManifest.xml:30:13-85
+438            android:enabled="true"
+438-->[com.google.firebase:firebase-analytics:16.0.5] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\80c22fa3f4a5ec613066cc3ba51a018a\jetified-firebase-analytics-16.0.5\AndroidManifest.xml:31:13-35
+439            android:exported="false" >
+439-->[com.google.firebase:firebase-analytics:16.0.5] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\80c22fa3f4a5ec613066cc3ba51a018a\jetified-firebase-analytics-16.0.5\AndroidManifest.xml:32:13-37
+440        </receiver>
+441        <receiver
+441-->[com.google.firebase:firebase-analytics:16.0.5] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\80c22fa3f4a5ec613066cc3ba51a018a\jetified-firebase-analytics-16.0.5\AndroidManifest.xml:34:9-42:20
+442            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+442-->[com.google.firebase:firebase-analytics:16.0.5] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\80c22fa3f4a5ec613066cc3ba51a018a\jetified-firebase-analytics-16.0.5\AndroidManifest.xml:35:13-100
+443            android:enabled="true"
+443-->[com.google.firebase:firebase-analytics:16.0.5] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\80c22fa3f4a5ec613066cc3ba51a018a\jetified-firebase-analytics-16.0.5\AndroidManifest.xml:36:13-35
+444            android:exported="true"
+444-->[com.google.firebase:firebase-analytics:16.0.5] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\80c22fa3f4a5ec613066cc3ba51a018a\jetified-firebase-analytics-16.0.5\AndroidManifest.xml:37:13-36
+445            android:permission="android.permission.INSTALL_PACKAGES" >
+445-->[com.google.firebase:firebase-analytics:16.0.5] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\80c22fa3f4a5ec613066cc3ba51a018a\jetified-firebase-analytics-16.0.5\AndroidManifest.xml:38:13-69
+446            <intent-filter>
+446-->[com.google.firebase:firebase-analytics:16.0.5] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\80c22fa3f4a5ec613066cc3ba51a018a\jetified-firebase-analytics-16.0.5\AndroidManifest.xml:39:13-41:29
+447                <action android:name="com.android.vending.INSTALL_REFERRER" />
+447-->[com.google.firebase:firebase-analytics:16.0.5] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\80c22fa3f4a5ec613066cc3ba51a018a\jetified-firebase-analytics-16.0.5\AndroidManifest.xml:40:17-79
+447-->[com.google.firebase:firebase-analytics:16.0.5] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\80c22fa3f4a5ec613066cc3ba51a018a\jetified-firebase-analytics-16.0.5\AndroidManifest.xml:40:25-76
+448            </intent-filter>
+449        </receiver>
+450
+451        <service
+451-->[com.google.firebase:firebase-analytics:16.0.5] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\80c22fa3f4a5ec613066cc3ba51a018a\jetified-firebase-analytics-16.0.5\AndroidManifest.xml:44:9-47:40
+452            android:name="com.google.android.gms.measurement.AppMeasurementService"
+452-->[com.google.firebase:firebase-analytics:16.0.5] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\80c22fa3f4a5ec613066cc3ba51a018a\jetified-firebase-analytics-16.0.5\AndroidManifest.xml:45:13-84
+453            android:enabled="true"
+453-->[com.google.firebase:firebase-analytics:16.0.5] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\80c22fa3f4a5ec613066cc3ba51a018a\jetified-firebase-analytics-16.0.5\AndroidManifest.xml:46:13-35
+454            android:exported="false" />
+454-->[com.google.firebase:firebase-analytics:16.0.5] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\80c22fa3f4a5ec613066cc3ba51a018a\jetified-firebase-analytics-16.0.5\AndroidManifest.xml:47:13-37
+455        <service
+455-->[com.google.firebase:firebase-analytics:16.0.5] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\80c22fa3f4a5ec613066cc3ba51a018a\jetified-firebase-analytics-16.0.5\AndroidManifest.xml:48:9-52:72
+456            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+456-->[com.google.firebase:firebase-analytics:16.0.5] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\80c22fa3f4a5ec613066cc3ba51a018a\jetified-firebase-analytics-16.0.5\AndroidManifest.xml:49:13-87
+457            android:enabled="true"
+457-->[com.google.firebase:firebase-analytics:16.0.5] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\80c22fa3f4a5ec613066cc3ba51a018a\jetified-firebase-analytics-16.0.5\AndroidManifest.xml:50:13-35
+458            android:exported="false"
+458-->[com.google.firebase:firebase-analytics:16.0.5] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\80c22fa3f4a5ec613066cc3ba51a018a\jetified-firebase-analytics-16.0.5\AndroidManifest.xml:51:13-37
+459            android:permission="android.permission.BIND_JOB_SERVICE" />
+459-->[com.google.firebase:firebase-analytics:16.0.5] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\80c22fa3f4a5ec613066cc3ba51a018a\jetified-firebase-analytics-16.0.5\AndroidManifest.xml:52:13-69
+460
+461        <receiver
+461-->[com.google.firebase:firebase-iid:20.1.1] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\9e776637e9c57ea02cd0ffdbf600ccae\jetified-firebase-iid-20.1.1\AndroidManifest.xml:37:9-44:20
+462            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+462-->[com.google.firebase:firebase-iid:20.1.1] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\9e776637e9c57ea02cd0ffdbf600ccae\jetified-firebase-iid-20.1.1\AndroidManifest.xml:38:13-78
+463            android:exported="true"
+463-->[com.google.firebase:firebase-iid:20.1.1] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\9e776637e9c57ea02cd0ffdbf600ccae\jetified-firebase-iid-20.1.1\AndroidManifest.xml:39:13-36
+464            android:permission="com.google.android.c2dm.permission.SEND" >
+464-->[com.google.firebase:firebase-iid:20.1.1] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\9e776637e9c57ea02cd0ffdbf600ccae\jetified-firebase-iid-20.1.1\AndroidManifest.xml:40:13-73
+465            <intent-filter>
+465-->[com.google.firebase:firebase-iid:20.1.1] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\9e776637e9c57ea02cd0ffdbf600ccae\jetified-firebase-iid-20.1.1\AndroidManifest.xml:41:13-43:29
+466                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+466-->[com.google.firebase:firebase-iid:20.1.1] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\9e776637e9c57ea02cd0ffdbf600ccae\jetified-firebase-iid-20.1.1\AndroidManifest.xml:42:17-81
+466-->[com.google.firebase:firebase-iid:20.1.1] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\9e776637e9c57ea02cd0ffdbf600ccae\jetified-firebase-iid-20.1.1\AndroidManifest.xml:42:25-78
+467            </intent-filter>
+468        </receiver>
+469
+470        <activity
+470-->[com.google.android.gms:play-services-base:17.2.1] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\3e9d0a3efa0290eff9a07c4237e49161\jetified-play-services-base-17.2.1\AndroidManifest.xml:23:9-26:75
+471            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+471-->[com.google.android.gms:play-services-base:17.2.1] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\3e9d0a3efa0290eff9a07c4237e49161\jetified-play-services-base-17.2.1\AndroidManifest.xml:24:13-79
+472            android:exported="false"
+472-->[com.google.android.gms:play-services-base:17.2.1] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\3e9d0a3efa0290eff9a07c4237e49161\jetified-play-services-base-17.2.1\AndroidManifest.xml:25:13-37
+473            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+473-->[com.google.android.gms:play-services-base:17.2.1] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\3e9d0a3efa0290eff9a07c4237e49161\jetified-play-services-base-17.2.1\AndroidManifest.xml:26:13-72
+474
+475        <provider
+475-->[com.google.firebase:firebase-common:19.3.0] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\1d98478fcfc711d7b868742d30b12593\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+476            android:name="com.google.firebase.provider.FirebaseInitProvider"
+476-->[com.google.firebase:firebase-common:19.3.0] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\1d98478fcfc711d7b868742d30b12593\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+477            android:authorities="com.albassami.logistics.firebaseinitprovider"
+477-->[com.google.firebase:firebase-common:19.3.0] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\1d98478fcfc711d7b868742d30b12593\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+478            android:exported="false"
+478-->[com.google.firebase:firebase-common:19.3.0] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\1d98478fcfc711d7b868742d30b12593\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+479            android:initOrder="100" />
+479-->[com.google.firebase:firebase-common:19.3.0] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\1d98478fcfc711d7b868742d30b12593\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+480
+481        <meta-data
+481-->[com.google.android.gms:play-services-basement:17.2.1] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\86b7794fc7192e1061b29bc97da9ee53\jetified-play-services-basement-17.2.1\AndroidManifest.xml:23:9-25:69
+482            android:name="com.google.android.gms.version"
+482-->[com.google.android.gms:play-services-basement:17.2.1] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\86b7794fc7192e1061b29bc97da9ee53\jetified-play-services-basement-17.2.1\AndroidManifest.xml:24:13-58
+483            android:value="@integer/google_play_services_version" />
+483-->[com.google.android.gms:play-services-basement:17.2.1] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\86b7794fc7192e1061b29bc97da9ee53\jetified-play-services-basement-17.2.1\AndroidManifest.xml:25:13-66
+484
+485        <activity android:name="com.paypal.android.sdk.payments.PaymentActivity" />
+485-->[com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\ec59e41f231a2f0eafe3c1733b4a9180\jetified-paypal-android-sdk-2.15.3\AndroidManifest.xml:13:9-84
+485-->[com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\ec59e41f231a2f0eafe3c1733b4a9180\jetified-paypal-android-sdk-2.15.3\AndroidManifest.xml:13:19-81
+486        <activity android:name="com.paypal.android.sdk.payments.PaymentMethodActivity" />
+486-->[com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\ec59e41f231a2f0eafe3c1733b4a9180\jetified-paypal-android-sdk-2.15.3\AndroidManifest.xml:14:9-90
+486-->[com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\ec59e41f231a2f0eafe3c1733b4a9180\jetified-paypal-android-sdk-2.15.3\AndroidManifest.xml:14:19-87
+487        <activity android:name="com.paypal.android.sdk.payments.PaymentConfirmActivity" />
+487-->[com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\ec59e41f231a2f0eafe3c1733b4a9180\jetified-paypal-android-sdk-2.15.3\AndroidManifest.xml:15:9-91
+487-->[com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\ec59e41f231a2f0eafe3c1733b4a9180\jetified-paypal-android-sdk-2.15.3\AndroidManifest.xml:15:19-88
+488        <activity android:name="com.paypal.android.sdk.payments.PayPalFuturePaymentActivity" />
+488-->[com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\ec59e41f231a2f0eafe3c1733b4a9180\jetified-paypal-android-sdk-2.15.3\AndroidManifest.xml:17:9-96
+488-->[com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\ec59e41f231a2f0eafe3c1733b4a9180\jetified-paypal-android-sdk-2.15.3\AndroidManifest.xml:17:19-93
+489        <activity android:name="com.paypal.android.sdk.payments.FuturePaymentConsentActivity" />
+489-->[com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\ec59e41f231a2f0eafe3c1733b4a9180\jetified-paypal-android-sdk-2.15.3\AndroidManifest.xml:18:9-97
+489-->[com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\ec59e41f231a2f0eafe3c1733b4a9180\jetified-paypal-android-sdk-2.15.3\AndroidManifest.xml:18:19-94
+490        <activity android:name="com.braintreepayments.api.threedsecure.ThreeDSecureWebViewActivity" />
+490-->[com.braintreepayments.api:drop-in:2.3.8] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\cba310e7299785ba2ea8da6c53f51f50\jetified-drop-in-2.3.8\AndroidManifest.xml:18:9-103
+490-->[com.braintreepayments.api:drop-in:2.3.8] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\cba310e7299785ba2ea8da6c53f51f50\jetified-drop-in-2.3.8\AndroidManifest.xml:18:19-100
+491        <activity android:name="com.braintreepayments.api.BraintreePaymentActivity" />
+491-->[com.braintreepayments.api:drop-in:2.3.8] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\cba310e7299785ba2ea8da6c53f51f50\jetified-drop-in-2.3.8\AndroidManifest.xml:19:9-87
+491-->[com.braintreepayments.api:drop-in:2.3.8] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\cba310e7299785ba2ea8da6c53f51f50\jetified-drop-in-2.3.8\AndroidManifest.xml:19:19-84
+492        <activity
+492-->[com.braintreepayments.api:braintree:2.22.0] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\c512f3076b2759a1101b75182b83976d\jetified-braintree-2.22.0\AndroidManifest.xml:15:9-17:62
+493            android:name="com.braintreepayments.api.AndroidPayActivity"
+493-->[com.braintreepayments.api:braintree:2.22.0] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\c512f3076b2759a1101b75182b83976d\jetified-braintree-2.22.0\AndroidManifest.xml:16:13-72
+494            android:theme="@style/bt_transparent_activity" />
+494-->[com.braintreepayments.api:braintree:2.22.0] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\c512f3076b2759a1101b75182b83976d\jetified-braintree-2.22.0\AndroidManifest.xml:17:13-59
+495        <activity
+495-->[com.braintreepayments.api:braintree:2.22.0] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\c512f3076b2759a1101b75182b83976d\jetified-braintree-2.22.0\AndroidManifest.xml:18:9-20:62
+496            android:name="com.braintreepayments.api.GooglePaymentActivity"
+496-->[com.braintreepayments.api:braintree:2.22.0] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\c512f3076b2759a1101b75182b83976d\jetified-braintree-2.22.0\AndroidManifest.xml:19:13-75
+497            android:theme="@style/bt_transparent_activity" />
+497-->[com.braintreepayments.api:braintree:2.22.0] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\c512f3076b2759a1101b75182b83976d\jetified-braintree-2.22.0\AndroidManifest.xml:20:13-59
+498
+499        <service android:name="com.braintreepayments.api.internal.AnalyticsIntentService" /> <!-- The activity will be merged into the manifest of the hosting app. -->
+499-->[com.braintreepayments.api:braintree:2.22.0] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\c512f3076b2759a1101b75182b83976d\jetified-braintree-2.22.0\AndroidManifest.xml:23:9-93
+499-->[com.braintreepayments.api:braintree:2.22.0] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\c512f3076b2759a1101b75182b83976d\jetified-braintree-2.22.0\AndroidManifest.xml:23:18-90
+500        <activity
+500-->[com.google.android.play:core:1.6.3] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\8628b1f76ae8f45d171066e94091ea64\jetified-core-1.6.3\AndroidManifest.xml:8:5-271
+501            android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity"
+501-->[com.google.android.play:core:1.6.3] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\8628b1f76ae8f45d171066e94091ea64\jetified-core-1.6.3\AndroidManifest.xml:8:15-102
+502            android:enabled="false"
+502-->[com.google.android.play:core:1.6.3] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\8628b1f76ae8f45d171066e94091ea64\jetified-core-1.6.3\AndroidManifest.xml:8:103-126
+503            android:exported="false"
+503-->[com.google.android.play:core:1.6.3] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\8628b1f76ae8f45d171066e94091ea64\jetified-core-1.6.3\AndroidManifest.xml:8:127-151
+504            android:launchMode="singleInstance"
+504-->[com.google.android.play:core:1.6.3] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\8628b1f76ae8f45d171066e94091ea64\jetified-core-1.6.3\AndroidManifest.xml:8:204-239
+505            android:process=":playcore_missing_splits_activity"
+505-->[com.google.android.play:core:1.6.3] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\8628b1f76ae8f45d171066e94091ea64\jetified-core-1.6.3\AndroidManifest.xml:8:152-203
+506            android:stateNotNeeded="true" />
+506-->[com.google.android.play:core:1.6.3] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\8628b1f76ae8f45d171066e94091ea64\jetified-core-1.6.3\AndroidManifest.xml:8:240-269
+507        <activity
+507-->[com.google.android.play:core:1.6.3] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\8628b1f76ae8f45d171066e94091ea64\jetified-core-1.6.3\AndroidManifest.xml:9:5-278
+508            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+508-->[com.google.android.play:core:1.6.3] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\8628b1f76ae8f45d171066e94091ea64\jetified-core-1.6.3\AndroidManifest.xml:9:15-95
+509            android:enabled="false"
+509-->[com.google.android.play:core:1.6.3] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\8628b1f76ae8f45d171066e94091ea64\jetified-core-1.6.3\AndroidManifest.xml:9:96-119
+510            android:exported="false"
+510-->[com.google.android.play:core:1.6.3] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\8628b1f76ae8f45d171066e94091ea64\jetified-core-1.6.3\AndroidManifest.xml:9:120-144
+511            android:process=":playcore_dialog_wrapper_activity"
+511-->[com.google.android.play:core:1.6.3] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\8628b1f76ae8f45d171066e94091ea64\jetified-core-1.6.3\AndroidManifest.xml:9:175-226
+512            android:stateNotNeeded="true"
+512-->[com.google.android.play:core:1.6.3] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\8628b1f76ae8f45d171066e94091ea64\jetified-core-1.6.3\AndroidManifest.xml:9:145-174
+513            android:theme="@style/Theme.PlayCore.Transparent" />
+513-->[com.google.android.play:core:1.6.3] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\8628b1f76ae8f45d171066e94091ea64\jetified-core-1.6.3\AndroidManifest.xml:9:227-276
+514        <activity
+514-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\9ba51cea56436f7cf466df69c8cc6205\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:46:9-52:63
+515            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+515-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\9ba51cea56436f7cf466df69c8cc6205\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:47:13-74
+516            android:clearTaskOnLaunch="true"
+516-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\9ba51cea56436f7cf466df69c8cc6205\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:48:13-45
+517            android:screenOrientation="sensorLandscape"
+517-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\9ba51cea56436f7cf466df69c8cc6205\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:49:13-56
+518            android:stateNotNeeded="true"
+518-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\9ba51cea56436f7cf466df69c8cc6205\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:50:13-42
+519            android:theme="@style/zxing_CaptureTheme"
+519-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\9ba51cea56436f7cf466df69c8cc6205\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:51:13-54
+520            android:windowSoftInputMode="stateAlwaysHidden" />
+520-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\9ba51cea56436f7cf466df69c8cc6205\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:52:13-60
+521
+522        <provider
+522-->[com.crashlytics.sdk.android:crashlytics:2.10.1] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\2aee1ab1810522b158c0a3216878899e\jetified-crashlytics-2.10.1\AndroidManifest.xml:19:9-23:38
+523            android:name="com.crashlytics.android.CrashlyticsInitProvider"
+523-->[com.crashlytics.sdk.android:crashlytics:2.10.1] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\2aee1ab1810522b158c0a3216878899e\jetified-crashlytics-2.10.1\AndroidManifest.xml:20:13-75
+524            android:authorities="com.albassami.logistics.crashlyticsinitprovider"
+524-->[com.crashlytics.sdk.android:crashlytics:2.10.1] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\2aee1ab1810522b158c0a3216878899e\jetified-crashlytics-2.10.1\AndroidManifest.xml:21:13-75
+525            android:exported="false"
+525-->[com.crashlytics.sdk.android:crashlytics:2.10.1] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\2aee1ab1810522b158c0a3216878899e\jetified-crashlytics-2.10.1\AndroidManifest.xml:22:13-37
+526            android:initOrder="90" />
+526-->[com.crashlytics.sdk.android:crashlytics:2.10.1] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\2aee1ab1810522b158c0a3216878899e\jetified-crashlytics-2.10.1\AndroidManifest.xml:23:13-35
+527
+528        <service
+528-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\5b357dd9ce877b8f512bfed28560475d\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:29:9-35:19
+529            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+529-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\5b357dd9ce877b8f512bfed28560475d\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:30:13-103
+530            android:exported="false" >
+530-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\5b357dd9ce877b8f512bfed28560475d\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:31:13-37
+531            <meta-data
+531-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\5b357dd9ce877b8f512bfed28560475d\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:32:13-34:39
+532                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+532-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\5b357dd9ce877b8f512bfed28560475d\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:33:17-94
+533                android:value="cct" />
+533-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\5b357dd9ce877b8f512bfed28560475d\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:34:17-36
+534        </service>
+535        <service
+535-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\f43271a625af55c9a88fee15c4a06bb6\jetified-transport-runtime-2.2.3\AndroidManifest.xml:26:9-30:19
+536            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+536-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\f43271a625af55c9a88fee15c4a06bb6\jetified-transport-runtime-2.2.3\AndroidManifest.xml:27:13-117
+537            android:exported="false"
+537-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\f43271a625af55c9a88fee15c4a06bb6\jetified-transport-runtime-2.2.3\AndroidManifest.xml:28:13-37
+538            android:permission="android.permission.BIND_JOB_SERVICE" >
+538-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\f43271a625af55c9a88fee15c4a06bb6\jetified-transport-runtime-2.2.3\AndroidManifest.xml:29:13-69
+539        </service>
+540
+541        <receiver
+541-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\f43271a625af55c9a88fee15c4a06bb6\jetified-transport-runtime-2.2.3\AndroidManifest.xml:32:9-34:40
+542            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+542-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\f43271a625af55c9a88fee15c4a06bb6\jetified-transport-runtime-2.2.3\AndroidManifest.xml:33:13-132
+543            android:exported="false" />
+543-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\f43271a625af55c9a88fee15c4a06bb6\jetified-transport-runtime-2.2.3\AndroidManifest.xml:34:13-37
+544
+545        <provider
+545-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\c4b2c5997ad8a803c20e14f831a4db33\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:23:9-27:43
+546            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+546-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\c4b2c5997ad8a803c20e14f831a4db33\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:24:13-79
+547            android:authorities="com.albassami.logistics.lifecycle-process"
+547-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\c4b2c5997ad8a803c20e14f831a4db33\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:25:13-69
+548            android:exported="false"
+548-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\c4b2c5997ad8a803c20e14f831a4db33\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:26:13-37
+549            android:multiprocess="true" />
+549-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\c4b2c5997ad8a803c20e14f831a4db33\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:27:13-40
+550
+551        <activity
+551-->[io.card:android-sdk:5.5.0] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\f17730ba4582af23e4016c9b65d4b2f6\jetified-android-sdk-5.5.0\AndroidManifest.xml:20:9-22:66
+552            android:name="io.card.payment.CardIOActivity"
+552-->[io.card:android-sdk:5.5.0] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\f17730ba4582af23e4016c9b65d4b2f6\jetified-android-sdk-5.5.0\AndroidManifest.xml:21:13-58
+553            android:configChanges="keyboardHidden|orientation" />
+553-->[io.card:android-sdk:5.5.0] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\f17730ba4582af23e4016c9b65d4b2f6\jetified-android-sdk-5.5.0\AndroidManifest.xml:22:13-63
+554        <activity android:name="io.card.payment.DataEntryActivity" />
+554-->[io.card:android-sdk:5.5.0] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\f17730ba4582af23e4016c9b65d4b2f6\jetified-android-sdk-5.5.0\AndroidManifest.xml:23:9-70
+554-->[io.card:android-sdk:5.5.0] C:\Users\ayman\.gradle\caches\transforms-2\files-2.1\f17730ba4582af23e4016c9b65d4b2f6\jetified-android-sdk-5.5.0\AndroidManifest.xml:23:19-67
+555    </application>
+556
+557</manifest>

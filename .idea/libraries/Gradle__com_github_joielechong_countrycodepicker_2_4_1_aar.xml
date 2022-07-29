@@ -1,0 +1,34 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.joielechong:countrycodepicker:2.4.1@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/26631f3f9886672a8fad230fde912abe/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/26631f3f9886672a8fad230fde912abe/res" />
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/ae07becdb5450c075c8b5088c1855571/jetified-countrycodepicker-2.4.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/ae07becdb5450c075c8b5088c1855571/jetified-countrycodepicker-2.4.1/res" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/ae07becdb5450c075c8b5088c1855571/jetified-countrycodepicker-2.4.1/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/db3bff08e6719321ff81e37b5d8e1256/jetified-countrycodepicker-2.4.1/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/db3bff08e6719321ff81e37b5d8e1256/jetified-countrycodepicker-2.4.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/db3bff08e6719321ff81e37b5d8e1256/jetified-countrycodepicker-2.4.1/res" />
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/ae07becdb5450c075c8b5088c1855571/jetified-countrycodepicker-2.4.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/ae07becdb5450c075c8b5088c1855571/jetified-countrycodepicker-2.4.1/res" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/ae07becdb5450c075c8b5088c1855571/jetified-countrycodepicker-2.4.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ae07becdb5450c075c8b5088c1855571/jetified-countrycodepicker-2.4.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ae07becdb5450c075c8b5088c1855571/jetified-countrycodepicker-2.4.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ae07becdb5450c075c8b5088c1855571/jetified-countrycodepicker-2.4.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d374f281226678182d47b7726a5112a0/jetified-countrycodepicker-2.4.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d374f281226678182d47b7726a5112a0/jetified-countrycodepicker-2.4.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d374f281226678182d47b7726a5112a0/jetified-countrycodepicker-2.4.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8a24c48b13ea4c994f4a0db0768347ab/jetified-countrycodepicker-2.4.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8a24c48b13ea4c994f4a0db0768347ab/jetified-countrycodepicker-2.4.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8a24c48b13ea4c994f4a0db0768347ab/jetified-countrycodepicker-2.4.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../src/flutter/caches/transforms-2/files-2.1/89092d79f5062e7c9e1b2439b06a4e7b/jetified-countrycodepicker-2.4.1/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../../../src/flutter/caches/transforms-2/files-2.1/89092d79f5062e7c9e1b2439b06a4e7b/jetified-countrycodepicker-2.4.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../src/flutter/caches/transforms-2/files-2.1/89092d79f5062e7c9e1b2439b06a4e7b/jetified-countrycodepicker-2.4.1/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.joielechong/countrycodepicker/2.4.1/536652ed3aa2f550a93db9c63531fae30bd8e39e/countrycodepicker-2.4.1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../src/flutter/caches/modules-2/files-2.1/com.github.joielechong/countrycodepicker/2.4.1/536652ed3aa2f550a93db9c63531fae30bd8e39e/countrycodepicker-2.4.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
